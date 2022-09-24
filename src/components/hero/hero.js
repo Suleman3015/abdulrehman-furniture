@@ -1,4 +1,4 @@
-import HeroSlider, { Slide, ButtonsNav, Nav, Overlay } from 'hero-slider';
+import HeroSlider, { Slide, Overlay } from 'hero-slider';
 import hero1 from "../../content/hero1.jpg"
 import hero2 from "../../content/hero2.jpg"
 import hero3 from "../../content/hero3.jpg"

@@ -10,13 +10,13 @@ function Navbar() {
   return (
     <div className='container'>
         <div className='semiContainer'>
-        <img src={Vogue} />
+        <img src={Vogue} alt="vogue wood , furniture site, pakistani furniture , pakistan furniture market , vogue wood furniture"/>
         <div className='menu'>
             <div className='menuOptions'>
-            <a>HOME</a>
-            <a>CATEGORIES</a>
-            <a>ABOUT</a>
-            <a>CONTACT US</a>
+            <a href="/">HOME</a>
+            <a href="/">CATEGORIES</a>
+            <a href="/">ABOUT</a>
+            <a href="/">CONTACT US</a>
             </div>
             <div className='icons'>
                 <FacebookIcon/>
