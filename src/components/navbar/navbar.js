@@ -13,10 +13,10 @@ function Navbar() {
         <img src={Vogue} alt="vogue wood , furniture site, pakistani furniture , pakistan furniture market , vogue wood furniture"/>
         <div className='menu'>
             <div className='menuOptions'>
-            <a href="/">HOME</a>
-            <a href="/">CATEGORIES</a>
-            <a href="/">ABOUT</a>
-            <a href="/">CONTACT US</a>
+            <a className='a' href="/">HOME</a>
+            <a className='a' href="/">CATEGORIES</a>
+            <a className='a' href="/">ABOUT</a>
+            <a className='a' href="/">CONTACT US</a>
             </div>
             <div className='icons'>
                 <FacebookIcon/>

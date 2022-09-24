@@ -61,3 +61,9 @@ backdrop-filter: blur(9.7px);
     align-items: center;
     width: 25%;
 }
+
+.a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
