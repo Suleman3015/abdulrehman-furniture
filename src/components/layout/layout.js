@@ -6,7 +6,6 @@ function Layout({children}) {
     <div>
         <Navbar/>
         {children}
-        <h1>hello je</h1>
     </div>
   )
 }
