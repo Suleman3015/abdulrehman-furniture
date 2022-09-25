@@ -19,11 +19,11 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(13.2px);
 -webkit-backdrop-filter: blur(13.2px);
 /* From https://css.glass */
-background: rgba(255, 255, 255, 0.19);
+/* background: rgba(255, 255, 255, 0.19);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(13.2px);
--webkit-backdrop-filter: blur(13.2px);
+-webkit-backdrop-filter: blur(13.2px); */
 
 
 
@@ -66,4 +66,24 @@ backdrop-filter: blur(9.7px);
     cursor: pointer;
     text-decoration: none;
     color: black;
+}
+
+.hamburgerContainer{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.19);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13.2px);
+-webkit-backdrop-filter: blur(13.2px);
+}
+
+.hamburgerMenu{
+    background: rgba(255, 255, 255, 0.19);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.2px);
+    -webkit-backdrop-filter: blur(13.2px);
+
 }

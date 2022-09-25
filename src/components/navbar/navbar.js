@@ -4,10 +4,18 @@ import Vogue from "../../content/vogue.png"
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-
+import useMediaQuery from '@mui/material/useMediaQuery';
+import Hamburger from './hamburger';
 
 function Navbar() {
+  const matches = useMediaQuery('(max-width:800px)');
+  console.log(matches)
   return (
+    <>
+    {matches === true
+    ?
+    <Hamburger/>
+    :
     <div className='container'>
         <div className='semiContainer'>
         <img src={Vogue} alt="vogue wood , furniture site, pakistani furniture , pakistan furniture market , vogue wood furniture"/>
@@ -27,6 +35,8 @@ function Navbar() {
         
         </div>
     </div>
+  }
+  </>
   )
 }
 
