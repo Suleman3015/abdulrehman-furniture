@@ -29,8 +29,15 @@ function Hamburger() {
     setState(open);
   };
 
+  const styles = {
+    paper: {
+      backgroundColor:'rgba(255, 255, 255, 0.19'
+    }
+  }
+
+
   return (
-    <div style={{backgroundColr:'rgba(255, 255, 255, 0.19)'}} className="hamburgerContainer" >
+    <div style={{backgroundColor:'rgba(255, 255, 255, 0.19)'}} className="hamburgerContainer" >
       <Container  maxWidth="lg" disableGutters="true">
         <Toolbar >
           <IconButton
@@ -49,7 +56,14 @@ function Hamburger() {
           </IconButton>
 
           {/* The outside of the drawer */}
+          <div style={{backgroundColor:'rgba(255, 255, 255, 0.19)'}}>
           <Drawer
+            PaperProps={{
+
+              sx: {
+                backgroundColor:"rgba(255, 255, 255, 0.19)"
+              }
+            }}
             //from which side the drawer slides in
             anchor="right"
             //if open is true --> drawer is shown
@@ -58,6 +72,7 @@ function Hamburger() {
             onClose={toggleDrawer(false)}
             //function that is called when the drawer should open
             onOpen={toggleDrawer(true)}
+            
           >
             {/* The inside of the drawer */}
             <Box
@@ -67,7 +82,7 @@ function Hamburger() {
                 // backgroundColor: "#dbc8ff"
               }}
               className="hamburgerMenu" 
-              style={{backgroundColr:'rgba(255, 255, 255, 0.19)'}}
+              style={{backgroundColor:'rgba(255, 255, 255, 0.19)'}}
               
             >
               {/* when clicking the icon it calls the function toggleDrawer and closes the drawer by setting the variable open to false */}
@@ -102,6 +117,8 @@ function Hamburger() {
               {/* {search} */}
             </Box>
           </Drawer>
+
+          </div>
         </Toolbar>
       </Container>
     </div>
