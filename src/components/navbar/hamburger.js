@@ -29,12 +29,6 @@ function Hamburger() {
     setState(open);
   };
 
-  const styles = {
-    paper: {
-      backgroundColor:'rgba(255, 255, 255, 0.19'
-    }
-  }
-
 
   return (
     <div style={{backgroundColor:'rgba(255, 255, 255, 0.19)'}} className="hamburgerContainer" >
