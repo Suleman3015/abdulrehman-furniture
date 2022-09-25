@@ -14,6 +14,7 @@ import FolderIcon from "@mui/icons-material/Folder";
 import ImageIcon from "@mui/icons-material/Image";
 import DescriptionIcon from "@mui/icons-material/Description";
 import "./navbar.css"
+import Vogue2 from "../../content/vogue.png"
 
 function Hamburger() {
   const [open, setState] = useState(false);
@@ -33,12 +34,17 @@ function Hamburger() {
   return (
     <div style={{backgroundColor:'rgba(255, 255, 255, 0.19)'}} className="hamburgerContainer" >
       <Container  maxWidth="lg" disableGutters="true">
-        <Toolbar >
+    
+        <Toolbar     style={{
+          display:"flex",flexDirection:"row",width:"100%"
+        }} >
           <IconButton
             edge="start"
             color="inherit"
             aria-label="open drawer"
             onClick={toggleDrawer(true)}
+            style={{display:"flex",width:"100%",justifyContent:"space-between", flexDirection:"row-reverse" }}
+
             sx={{
               mr: 2,
               display: {
@@ -46,6 +52,9 @@ function Hamburger() {
               }
             }}
           >
+
+            <img className="logoImg" src={Vogue2} alt="furniture" />
+           
             <MenuIcon />
           </IconButton>
 
@@ -108,6 +117,7 @@ function Hamburger() {
                   <ListItemText primary="Contact" />
                 </ListItemButton>
               </Box>
+           
               {/* {search} */}
             </Box>
           </Drawer>
@@ -115,6 +125,19 @@ function Hamburger() {
           </div>
         </Toolbar>
       </Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 }

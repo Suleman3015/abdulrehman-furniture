@@ -18,7 +18,9 @@ function Navbar() {
     :
     <div className='container'>
         <div className='semiContainer'>
-        <img src={Vogue} alt="vogue wood , furniture site, pakistani furniture , pakistan furniture market , vogue wood furniture"/>
+        <img style={{
+          marginTop:"10px"
+        }} height={100} src={Vogue} alt="vogue wood , furniture site, pakistani furniture , pakistan furniture market , vogue wood furniture"/>
         <div className='menu'>
             <div className='menuOptions'>
             <a className='a' href="/">HOME</a>
