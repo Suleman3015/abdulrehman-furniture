@@ -39,9 +39,9 @@ function Hamburger() {
           display:"flex",flexDirection:"row",width:"100%"
         }} >
           <IconButton
-            edge="start"
-            color="inherit"
-            aria-label="open drawer"
+            // edge="start"
+            // color="inherit"
+            // aria-label="open drawer"
             onClick={toggleDrawer(true)}
             style={{display:"flex",width:"100%",justifyContent:"space-between", flexDirection:"row-reverse" }}
 

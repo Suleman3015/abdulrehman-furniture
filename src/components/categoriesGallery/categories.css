@@ -1,0 +1,108 @@
+.main{
+
+    margin: auto;
+    width:90%;  
+    /* display:flex;
+    flex-direction: column;
+    align-items: center; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 45px 25px;
+    justify-content: space-evenly; 
+    height: 20vw;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+  }
+
+
+  
+  .boxes{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 100%;
+    /* height: 15vw; */
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.img{
+    width:100%;
+    height: 100%;
+    /* vertical-align: middle; */
+    object-fit: cover;
+    filter: brightness(50%);
+    /* transform-style:center center;
+    transition: transform 3s, filter 5s ease-in-out; */
+    /* -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.boxes:hover {
+   
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+}
+
+.boxes:hover .img {
+   
+   filter: brightness(80%);
+   
+}
+
+.boxes:hover .Typo{
+    display: none;
+}
+
+
+.Typo{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    padding-top: 12vw;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+  
+}
+
+@media only  screen and (max-width:1025px){
+        
+    .Typo{
+        padding-top: 17vw;
+        width: 100%;
+        position: fixed;
+        text-align: center;
+        /* padding-left: 20vw; */
+      
+    } 
+}
+
+@media only  screen and (max-width:465px){
+        
+    .Typo{
+        padding-top: 32vw;
+        width: 100%;
+        position: fixed;
+        text-align: center;
+    } 
+}
+

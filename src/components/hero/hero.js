@@ -10,7 +10,8 @@ import Subtitle from './subtitle';
  function Hero() {
   return (
     <HeroSlider style={{
-        position:"sticky"
+        position:"sticky",
+        marginBottom:"40px"
     }}>
       <Overlay>
         <Wrapper>
