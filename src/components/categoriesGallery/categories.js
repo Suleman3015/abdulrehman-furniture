@@ -41,8 +41,9 @@ function Categories() {
         <Typography 
         style={{
           fontSize:"2vw",
-          marginBottom:"10px",
-          fontWeight:"600"
+          // marginBottom:"10px",
+          fontWeight:"600",
+          margin:"auto auto 10px auto"
         }} 
         
         className="mainTypo">CATEGORIES</Typography>
