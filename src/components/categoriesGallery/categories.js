@@ -13,10 +13,24 @@ import WARDROBES from "../../content/categories/wardrobes.jpg"
 import Bunked  from "../../content/categories/bunkbed.jpg"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import ConsoleLogger from "hero-slider/dist/modules/ConsoleLogger";
 
 
 function Categories() {
 
+// const fname = "rao" 
+// const Name = ` ${fname} ali `
+// console.log(Name)
+
+// const array = [1,2,3,4,5,6,7,8]
+// console.log(array,"new array")
+// array.push(9)
+// console.log(array)
+
+
+  const matches = useMediaQuery('(max-width:600px)');
+  console.log(matches,"ter")
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -40,7 +54,7 @@ function Categories() {
     <div className="main">
         <Typography 
         style={{
-          fontSize:"2vw",
+          fontSize: matches === true ? "5vw" : "2vw" ,
           // marginBottom:"10px",
           fontWeight:"600",
           margin:"auto auto 10px auto"
@@ -51,7 +65,7 @@ function Categories() {
         
       <div style={{overflow:"hidden",height:"100%"}}>
 
-        <div className="boxes">
+        <div  className="boxes">
             <Typography  className="Typo"> BED</Typography>
         <img alt="furniture" className="img" src={Bed} />
         </div>
@@ -89,7 +103,12 @@ function Categories() {
         <div style={{overflow:"hidden",height:"100%"}}>
         <div className="boxes">
         <Typography className="Typo"> TABLES</Typography>
+
+
+
         <img alt="furniture" className="img" src={Table} />
+        
+        
         </div>
         </div>
 

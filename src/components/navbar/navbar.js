@@ -9,7 +9,7 @@ import Hamburger from './hamburger';
 
 function Navbar() {
   const matches = useMediaQuery('(max-width:800px)');
-  console.log(matches)
+  // console.log(matches)
   return (
     <>
     {matches === true
