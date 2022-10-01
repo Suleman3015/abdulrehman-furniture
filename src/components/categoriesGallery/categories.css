@@ -110,5 +110,8 @@
     .main{
         width:100%;
     } 
+    .img{
+        filter: brightness(80%);
+    }
 }
 
