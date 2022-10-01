@@ -1,7 +1,6 @@
-// import { Gallery } from "react-grid-gallery";
+import React ,{useEffect} from "react"
 import "./categories.css";
 import {Typography} from "@mui/material"
-
 import Bed from "../../content/categories/bed.jpg"
 import Sofe from "../../content/categories/sofa.jpg"
 import Dining from "../../content/categories/dining.jpg"
@@ -14,23 +13,24 @@ import Bunked  from "../../content/categories/bunkbed.jpg"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import useMediaQuery from '@mui/material/useMediaQuery';
-import ConsoleLogger from "hero-slider/dist/modules/ConsoleLogger";
+import Aos from "aos"
+import "aos/dist/aos.css"
+
+
+
 
 
 function Categories() {
 
-// const fname = "rao" 
-// const Name = ` ${fname} ali `
-// console.log(Name)
+  useEffect(()=>{
+    Aos.init({duration:2000})
+},[])
 
-// const array = [1,2,3,4,5,6,7,8]
-// console.log(array,"new array")
-// array.push(9)
-// console.log(array)
+
 
 
   const matches = useMediaQuery('(max-width:600px)');
-  console.log(matches,"ter")
+ 
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -51,7 +51,9 @@ function Categories() {
     }
   };
   return (
-    <div className="main">
+
+      
+    <div data-aos="fade-up" className="main">
         <Typography 
         style={{
           fontSize: matches === true ? "5vw" : "2vw" ,
@@ -135,6 +137,7 @@ function Categories() {
         </Carousel>
       {/* </div> */}
     </div>
+   
   );
 }
 

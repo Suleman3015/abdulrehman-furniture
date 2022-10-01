@@ -1,0 +1,59 @@
+.feedbackMain{
+    width: 100%;
+    margin-top: 40px;
+    
+}
+
+.feedbackSemiMain{
+    width: 90%;
+    margin: auto; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+
+.feedback{
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.feedbackTypo{
+    color: #f2f2f2;
+   background: linear-gradient(90deg, rgba(88,27,27,1) 0%, rgba(68,39,39,1) 50%, rgba(55,33,11,1) 100%);
+     font-size: 25px; 
+     line-height: 74px; 
+     font-weight: 700;
+      margin: 0 5px 24px; 
+      float: left; 
+      padding: 10px; 
+      margin: 0 5px 24px; 
+      font-family: 'Libre Baskerville', serif; 
+}
+
+
+.quote{
+    background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.quote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+
+  @media only  screen and (max-width:800px){
+        
+    .feedbackTypo{
+        font-size: 15px;
+        line-height: 40px;
+    }
+}
