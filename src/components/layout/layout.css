@@ -1,7 +1,7 @@
 .svg{
     position: sticky;
     z-index: 2;
-    bottom: 5vw;
+    bottom: 3vw;
     width: 100%;
     display: flex;
     justify-content: flex-end;

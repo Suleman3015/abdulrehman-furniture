@@ -4,6 +4,7 @@ import Layout from "./components/layout/layout"
 import Categories from "./components/categoriesGallery/categories"
 import Section from './components/section/section';
 import Feedback from './components/feedback/feedback';
+import TopProducts from './components/topProducts/topProducts';
 
 function App() {
  
@@ -13,6 +14,7 @@ function App() {
     <Categories />
     <Section/>
     <Feedback/>
+    <TopProducts/>
    
     </Layout>
 
