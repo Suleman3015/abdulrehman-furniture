@@ -12,7 +12,7 @@ function Section() {
     Aos.init({ duration: 3000 });
   }, []);
   return (
-    <div data-aos="zoom-in-up" style={{}} className="mainSection">
+    <div  style={{}} className="mainSection">
       <div className="semiMain">
         <img
           data-aos="fade-right"
@@ -26,8 +26,9 @@ function Section() {
               fontSize: matches === true ? "5vw" : "2vw",
               // marginBottom:"10px",
               fontWeight: "600",
+              fontFamily:"monospace",
               margin: "auto auto 10px auto",
-              fontFamily: "Libre Baskerville,serif",
+              
               lineHeight: "45px",
               textAlign: "center",
               textShadow: "0 1px 1px #fff",

@@ -12,9 +12,10 @@ function App() {
     <Layout>
     <Hero/>
     <Categories />
+    <TopProducts/>
     <Section/>
     <Feedback/>
-    <TopProducts/>
+
    
     </Layout>
 

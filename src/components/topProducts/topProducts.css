@@ -7,9 +7,8 @@
 .topProductsSemiMain{
     width:90%;
     margin:auto;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
     padding: 2vw;
-    background-color: #E6E6FA;
     
 }
 
@@ -20,7 +19,17 @@
     width: 350px;
     margin-left:2vw;
     margin: 5px;
-    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     border-radius: 3px;
-    background-color: white;
+}
+
+@media only  screen and (max-width:600px){
+    .productsBox{
+        width: 310px;
+        box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    }
+    .topProductsSemiMain{
+        box-shadow:none;
+        
+    }
 }

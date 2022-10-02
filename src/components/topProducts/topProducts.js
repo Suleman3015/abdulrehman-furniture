@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import {Typography} from "@mui/material"
 
 import "./topProducts.css"
@@ -10,10 +10,15 @@ import HotItem2 from "../../content/hotItem2.jpg"
 import HotItem3 from "../../content/hotItem3.jpg"
 import HotItem4 from "../../content/hotItem4.jpg"
 import HotItem5 from "../../content/hotItem5.jpg"
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 function TopProducts() {
     const matches = useMediaQuery("(max-width:600px)");
+    useEffect(() => {
+        Aos.init({ duration: 2500 });
+      }, []);
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.
@@ -46,59 +51,86 @@ function TopProducts() {
           fontSize: matches === true ? "5vw" : "2vw",
           // marginBottom:"10px",
           fontWeight: "600",
+          fontFamily:"monospace",
           margin: "auto auto 10px auto",
           textAlign: "center",
+          
         }}
         className="mainTypo"
       >
-        Customer Reviews
+    POPULAR PRODUCTS
       </Typography>
 
 
-      <div style={{marginTop:"2vw"}} className="topProductsSemiMain">
+      <div  data-aos="fade-right"  style={{marginTop:"2vw"}} className="topProductsSemiMain">
       <Carousel responsive={responsive}>
-        <div className="productsBox">
+        <div   className="productsBox">
             <img alt="voguewood" src={HotItem} height={200}/>
             <Typography style={{
                 textAlign:"center",
-                margin:"20px"
-            }}>product name</Typography>
+                margin:"20px",
+                color: "#7a7c7f",
+                fontSize: "22px",
+                fontFamily: "Libre Baskerville , serif",
+                lineHeight: "45px", 
+                textShadow: "0 1px 1px #fff",
+            }}>Wooden Lamp</Typography>
 
         </div>
 
-        <div className="productsBox">
+        <div  className="productsBox">
             <img alt="voguewood" src={HotItem2} height={200}/>
             <Typography style={{
-                textAlign:"center",
-                margin:"20px"
-            }}>product name</Typography>
+                   textAlign:"center",
+                   margin:"20px",
+                   color: "#7a7c7f",
+                   fontSize: "22px",
+                   fontFamily: "Libre Baskerville , serif",
+                   lineHeight: "45px", 
+                   textShadow: "0 1px 1px #fff",
+            }}>Stylish Console</Typography>
 
         </div>
 
-        <div className="productsBox">
+        <div  className="productsBox">
             <img alt="voguewood" src={HotItem3} height={200}/>
             <Typography style={{
-                textAlign:"center",
-                margin:"20px"
-            }}>product name</Typography>
+                   textAlign:"center",
+                   margin:"20px",
+                   color: "#7a7c7f",
+                   fontSize: "22px",
+                   fontFamily: "Libre Baskerville , serif",
+                   lineHeight: "45px", 
+                   textShadow: "0 1px 1px #fff",
+            }}>Wooden Chair</Typography>
 
         </div>
 
-        <div className="productsBox">
+        <div   className="productsBox">
             <img alt="voguewood" src={HotItem4} height={200}/>
             <Typography style={{
-                textAlign:"center",
-                margin:"20px"
-            }}>product name</Typography>
+                  textAlign:"center",
+                  margin:"20px",
+                  color: "#7a7c7f",
+                  fontSize: "22px",
+                  fontFamily: "Libre Baskerville , serif",
+                  lineHeight: "45px", 
+                  textShadow: "0 1px 1px #fff",
+            }}>Bed Side Table </Typography>
 
         </div>
 
-        <div style={{margin:"15px"}} className="productsBox">
+        <div   style={{margin:"15px"}} className="productsBox">
             <img alt="voguewood" src={HotItem5} height={200}/>
             <Typography style={{
-                textAlign:"center",
-                margin:"20px"
-            }}>product name</Typography>
+                  textAlign:"center",
+                  margin:"20px",
+                  color: "#7a7c7f",
+                  fontSize: "22px",
+                  fontFamily: "Libre Baskerville , serif",
+                  lineHeight: "45px", 
+                  textShadow: "0 1px 1px #fff",
+            }}>Bed Side Console</Typography>
 
         </div>
         </Carousel>

@@ -40,15 +40,17 @@ function Feedback() {
       data-aos="fade-up"
       data-aos-duration="1000"
         style={{
+
+          // marginBottom:"10px",
           fontSize: matches === true ? "5vw" : "2vw",
           // marginBottom:"10px",
           fontWeight: "600",
+          fontFamily:"monospace",
           margin: "auto auto 10px auto",
-          textAlign:"center"
+          textAlign: "center",
         }}
-        className="mainTypo"
       >
-        Customer Reviews
+        CUSTOMER REVIEWES
       </Typography>
       <div className="feedbackSemiMain">
         <Carousel responsive={responsive}>

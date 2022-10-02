@@ -58,7 +58,8 @@ function Categories() {
         style={{
           fontSize: matches === true ? "5vw" : "2vw" ,
           // marginBottom:"10px",
-          fontWeight:"600",
+          fontWeight: "600",
+          fontFamily:"monospace",
           margin:"auto auto 10px auto"
         }} 
         
