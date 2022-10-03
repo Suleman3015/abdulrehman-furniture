@@ -45,7 +45,7 @@ function Feedback() {
           fontSize: matches === true ? "5vw" : "2vw",
           // marginBottom:"10px",
           fontWeight: "600",
-          fontFamily:"monospace",
+          fontFamily:"'Alegreya SC', serif",
           margin: "auto auto 10px auto",
           textAlign: "center",
         }}
@@ -57,16 +57,20 @@ function Feedback() {
           <div data-aos="fade-left" className="feedback">
             <Typography
               style={{
-                fontSize: matches === true ? "20px" : "30px",
+                fontSize: matches === true ? "15px" : "20px",
                 fontWeight: "normal",
-                lineHeight: "45px",
-                // textShadow: "0 1px 1px #fff",
-                // fontFamily: "Quicksand, sans-serif",
-                background:"gray",
+                lineHeight: "25px",
+                marginLeft:"7px",
+                background: "#66471d",
                 width:"fit-content",
                 padding:"5px",
                 borderRadius:"4px",
-                boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px"
+                color:"white",
+                fontFamily:"'Alegreya SC', serif",
+                // boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+                // boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px"
+                boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"
+              
               }}
             >
               
@@ -88,16 +92,19 @@ function Feedback() {
           <div className="feedback">
             <Typography
               style={{
-                fontSize: matches === true ? "20px" : "30px",
+                fontSize: matches === true ? "15px" : "20px",
                 fontWeight: "normal",
-                lineHeight: "45px",
-                // textShadow: "0 1px 1px #fff",
-                // fontFamily: "Quicksand, sans-serif",
-                background:"gray",
+                lineHeight: "25px",
+                marginLeft:"7px",
+                background: "#66471d",
                 width:"fit-content",
                 padding:"5px",
                 borderRadius:"4px",
-                boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px"
+                color:"white",
+                fontFamily:"'Alegreya SC', serif",
+                // boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+                // boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px"
+                boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"
               }}
             >
               {" "}
@@ -119,16 +126,19 @@ function Feedback() {
           <div className="feedback">
             <Typography
               style={{
-                fontSize: matches === true ? "20px" : "30px",
+                fontSize: matches === true ? "15px" : "20px",
                 fontWeight: "normal",
-                lineHeight: "45px",
-                // textShadow: "0 1px 1px #fff",
-                // fontFamily: "Quicksand, sans-serif",
-                background:"gray",
+                lineHeight: "25px",
+                marginLeft:"7px",
+                background: "#66471d",
                 width:"fit-content",
                 padding:"5px",
                 borderRadius:"4px",
-                boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px"
+                color:"white",
+                fontFamily:"'Alegreya SC', serif",
+                // boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+                // boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px"
+                boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"
               }}
             >
               {" "}
@@ -150,16 +160,19 @@ function Feedback() {
           <div className="feedback">
             <Typography
               style={{
-                fontSize: matches === true ? "20px" : "30px",
+                fontSize: matches === true ? "15px" : "20px",
                 fontWeight: "normal",
-                lineHeight: "45px",
-                // textShadow: "0 1px 1px #fff",
-                // fontFamily: "Quicksand, sans-serif",
-                background:"gray",
+                lineHeight: "25px",
+                marginLeft:"7px",
+                background: "#66471d",
                 width:"fit-content",
                 padding:"5px",
                 borderRadius:"4px",
-                boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px"
+                color:"white",
+                fontFamily:"'Alegreya SC', serif",
+                // boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+                // boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px"
+                boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"
               }}
             >
               {" "}

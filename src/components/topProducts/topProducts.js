@@ -34,11 +34,11 @@ function TopProducts() {
             items: 3
           },
         tablet: {
-          breakpoint: { max: 1024, min: 464 },
+          breakpoint: { max: 1024, min: 1024 },
           items: 2
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 },
+          breakpoint: { max: 700, min: 0 },
           items: 1
         }
       };
@@ -51,7 +51,7 @@ function TopProducts() {
           fontSize: matches === true ? "5vw" : "2vw",
           // marginBottom:"10px",
           fontWeight: "600",
-          fontFamily:"monospace",
+          fontFamily:"'Alegreya SC', serif",
           margin: "auto auto 10px auto",
           textAlign: "center",
           
@@ -65,7 +65,9 @@ function TopProducts() {
       <div  data-aos="fade-right"  style={{marginTop:"2vw"}} className="topProductsSemiMain">
       <Carousel responsive={responsive}>
         <div   className="productsBox">
-            <img alt="voguewood" src={HotItem} height={200}/>
+            <img 
+            className="productImg"
+            alt="voguewood" src={HotItem} height={200}/>
             <Typography style={{
                 textAlign:"center",
                 margin:"20px",
@@ -120,7 +122,7 @@ function TopProducts() {
 
         </div>
 
-        <div   style={{margin:"15px"}} className="productsBox">
+        <div  className="productsBox">
             <img alt="voguewood" src={HotItem5} height={200}/>
             <Typography style={{
                   textAlign:"center",

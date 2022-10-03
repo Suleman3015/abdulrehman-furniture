@@ -59,7 +59,7 @@ function Categories() {
           fontSize: matches === true ? "5vw" : "2vw" ,
           // marginBottom:"10px",
           fontWeight: "600",
-          fontFamily:"monospace",
+          fontFamily:"'Alegreya SC', serif",
           margin:"auto auto 10px auto"
         }} 
         

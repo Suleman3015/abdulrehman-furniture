@@ -20,7 +20,8 @@
 
 .feedbackTypo{
     color: #f2f2f2;
-   background: linear-gradient(90deg, rgba(88,27,27,1) 0%, rgba(68,39,39,1) 50%, rgba(55,33,11,1) 100%);
+   /* background: linear-gradient(90deg, rgba(88,27,27,1) 0%, rgba(68,39,39,1) 50%, rgba(55,33,11,1) 100%); */
+   background: linear-gradient(90deg, rgba(55,33,11,1) 3%, rgba(102,71,29,1) 52%, rgba(55,33,11,1) 100%);
      font-size: 25px; 
      line-height: 74px; 
      font-weight: 700;
