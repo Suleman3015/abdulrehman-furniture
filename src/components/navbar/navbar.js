@@ -23,7 +23,9 @@ function Navbar() {
         }} height={100} src={Vogue} alt="vogue wood , furniture site, pakistani furniture , pakistan furniture market , vogue wood furniture"/>
         <div className='menu'>
             <div className='menuOptions'>
-            <a className='a' href="/">HOME</a>
+            <a style={{
+                color: "rgba(0, 0, 0, 0.24) 0px 3px 8px"
+            }} className='a' href="/">HOME</a>
             <a className='a' href="/">CATEGORIES</a>
             <a className='a' href="/">ABOUT</a>
             <a className='a' href="/">CONTACT US</a>

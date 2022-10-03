@@ -10,11 +10,14 @@ import Table from "../../content/categories/tables.jpg"
 import Dresser from "../../content/categories/dresser.jpg"
 import WARDROBES from "../../content/categories/wardrobes.jpg"
 import Bunked  from "../../content/categories/bunkbed.jpg"
+import BookShel from "../../content/categories/bookshelves.jpg"
+import Kitchen from "../../content/categories/kitchen.jpg"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Aos from "aos"
 import "aos/dist/aos.css"
+
 
 
 
@@ -69,14 +72,21 @@ function Categories() {
       <div style={{overflow:"hidden",height:"100%"}}>
 
         <div  className="boxes">
-            <Typography  className="Typo"> BED</Typography>
+            <Typography style={{
+              fontSize:"25px",
+              letterSpacing:"2px",
+              fontFamily:"'Alegreya SC', serif",
+            }} className="Typo"> Beds</Typography>
         <img alt="furniture" className="img" src={Bed} />
         </div>
         </div>
 
         <div style={{overflow:"hidden",height:"100%"}}>
         <div className="boxes">
-        <Typography className="Typo" > SOFA</Typography>
+        <Typography style={{
+              fontSize:"25px",
+              letterSpacing:"2px",
+              fontFamily:"'Alegreya SC', serif",}} className="Typo" > Sofas</Typography>
         <img alt="furniture" className="img" src={Sofe} />
         </div>
         </div>
@@ -84,28 +94,40 @@ function Categories() {
 
         <div style={{overflow:"hidden",height:"100%"}}>
         <div className="boxes">
-        <Typography className="Typo"> DINING</Typography>
+        <Typography style={{
+              fontSize:"25px",
+              letterSpacing:"2px",
+              fontFamily:"'Alegreya SC', serif",}} className="Typo"> Dining Tables</Typography>
         <img alt="furniture"className="img" src={Dining} />
         </div>
         </div>
       
         <div style={{overflow:"hidden",height:"100%"}}>
         <div className="boxes">
-        <Typography className="Typo"> OFFICE CHAIRS</Typography>
+        <Typography style={{
+              fontSize:"25px",
+              letterSpacing:"2px",
+              fontFamily:"'Alegreya SC', serif",}} className="Typo"> Office Chairs</Typography>
         <img alt="furniture" className="img" src={OfficeChair} />
         </div>
         </div>
 
         <div style={{overflow:"hidden",height:"100%"}}>
         <div className="boxes">
-        <Typography className="Typo"> STUDY TABLES</Typography>
+        <Typography style={{
+              fontSize:"25px",
+              letterSpacing:"2px",
+              fontFamily:"'Alegreya SC', serif",}} className="Typo"> Stydy Tables</Typography>
         <img alt="furniture" className="img" src={StudyTable} />
         </div>
         </div>
         
         <div style={{overflow:"hidden",height:"100%"}}>
         <div className="boxes">
-        <Typography className="Typo"> TABLES</Typography>
+        <Typography style={{
+              fontSize:"25px",
+              letterSpacing:"2px",
+              fontFamily:"'Alegreya SC', serif",}} className="Typo"> Tables</Typography>
 
 
 
@@ -117,22 +139,51 @@ function Categories() {
 
         <div style={{overflow:"hidden",height:"100%"}}>
         <div className="boxes">
-        <Typography className="Typo"> DRESSER</Typography>
+        <Typography style={{
+              fontSize:"25px",
+              letterSpacing:"2px",
+              fontFamily:"'Alegreya SC', serif",}} className="Typo"> Dressers</Typography>
         <img alt="furniture" className="img" src={Dresser} />
         </div>
         </div>
 
         <div style={{overflow:"hidden",height:"100%"}}>
         <div className="boxes">
-        <Typography className="Typo"> WARDROBES</Typography>
+        <Typography style={{
+              fontSize:"25px",
+              letterSpacing:"2px",
+              fontFamily:"'Alegreya SC', serif",}} className="Typo"> Wardrobes</Typography>
         <img alt="furniture" className="img" src={WARDROBES} />
         </div>
         </div>
 
         <div style={{overflow:"hidden",height:"100%"}}>
         <div className="boxes">
-        <Typography className="Typo"> BUNK BEDS</Typography>
+        <Typography style={{
+              fontSize:"25px",
+              letterSpacing:"2px",
+              fontFamily:"'Alegreya SC', serif",}} className="Typo"> Bunk Beds</Typography>
         <img alt="furniture" className="img" src={Bunked} />
+        </div>
+        </div>
+
+        <div style={{overflow:"hidden",height:"100%"}}>
+        <div className="boxes">
+        <Typography style={{
+              fontSize:"25px",
+              letterSpacing:"2px",
+              fontFamily:"'Alegreya SC', serif",}} className="Typo"> Book Shelves</Typography>
+        <img alt="furniture" className="img" src={BookShel} />
+        </div>
+        </div>
+
+        <div style={{overflow:"hidden",height:"100%"}}>
+        <div className="boxes">
+        <Typography style={{
+              fontSize:"25px",
+              letterSpacing:"2px",
+              fontFamily:"'Alegreya SC', serif",}} className="Typo"> Kitchen Cabinets</Typography>
+        <img alt="furniture" className="img" src={Kitchen} />
         </div>
         </div>
         </Carousel>

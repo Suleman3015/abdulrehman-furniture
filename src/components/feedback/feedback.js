@@ -54,7 +54,7 @@ function Feedback() {
       </Typography>
       <div className="feedbackSemiMain">
         <Carousel responsive={responsive}>
-          <div data-aos="fade-left" className="feedback">
+          <div data-aos="fade-up" className="feedback">
             <Typography
               style={{
                 fontSize: matches === true ? "15px" : "20px",

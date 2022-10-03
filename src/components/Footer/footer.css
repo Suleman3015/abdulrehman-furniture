@@ -1,0 +1,93 @@
+.mainFooter{
+    width:100%;
+    background-color:#1f1f1f;
+    /* padding:"8vw" */
+    padding-top: 12vw;
+    padding-bottom: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.semiMainFooter{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto auto 8vw auto;
+}
+
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+.footerContainerSocial{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width:fit-content
+}
+
+.footerIcon{
+    display:flex;
+    flex-direction: row;
+    /* width: 25%; */
+    justify-content: space-between;
+
+    
+}
+
+.copyright{
+    /* width: fit-content;
+    margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+    margin-bottom: 4px;
+    color: lightgray;
+
+}
+
+.footerA{
+    margin-top: 15px;
+    /* margin-bottom: 3px; */
+    cursor: pointer;
+    color: lightgray;
+    text-decoration: none;
+    /* text-align: center; */
+}
+
+.footerSocial{
+    color: lightgray;
+}
+
+@media only  screen and (max-width:800px){
+   .semiMainFooter{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   .footerContainer{
+    text-align: center;
+    margin-bottom: 8vw;
+   }
+
+   .footerContainerSocial{
+    margin-bottom: 2vw;
+   }
+}
+
+@media only  screen and (max-width:600px){
+    .footerA{
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        font-family:"'Alegreya SC', serif"
+    }
+
+    .footerIcon{
+        margin-top: 5px;
+        justify-content: space-evenly;
+    }
+}

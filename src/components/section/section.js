@@ -21,7 +21,7 @@ function Section() {
           src={Fur}
           alt="vogue wood"
         />
-        <div data-aos="fade-left" className="typoSection">
+        <div data-aos="fade-up" className="typoSection">
           <Typography
             style={{
               fontSize: matches === true ? "5vw" : "2vw",
