@@ -42,12 +42,14 @@ function Feedback() {
         style={{
 
           // marginBottom:"10px",
-          fontSize: matches === true ? "5vw" : "2vw",
+          fontSize: matches === true ? "5vw" : "28px" ,
+          letterSpacing:matches === true ? "1px":"3px",
           // marginBottom:"10px",
           fontWeight: "600",
           fontFamily:"'Alegreya SC', serif",
           margin: "auto auto 10px auto",
           textAlign: "center",
+          // color:"rgb(54, 69, 79)"
         }}
       >
         CUSTOMER REVIEWES

@@ -48,12 +48,13 @@ function TopProducts() {
         data-aos="fade-up"
         data-aos-duration="1000"
         style={{
-          fontSize: matches === true ? "5vw" : "2vw",
-          // marginBottom:"10px",
+          fontSize: matches === true ? "5vw" : "28px" ,
+          letterSpacing:matches === true ? "1px":"3px",
           fontWeight: "600",
           fontFamily:"'Alegreya SC', serif",
           margin: "auto auto 10px auto",
           textAlign: "center",
+          // color:"rgb(54, 69, 79)"
           
         }}
         className="mainTypo"
@@ -71,7 +72,7 @@ function TopProducts() {
             <Typography style={{
                 textAlign:"center",
                 margin:"20px",
-                color: "#7a7c7f",
+                color:"rgb(54, 69, 79)",
                 fontSize: "22px",
                 fontFamily: "Libre Baskerville , serif",
                 lineHeight: "45px", 
@@ -85,7 +86,7 @@ function TopProducts() {
             <Typography style={{
                    textAlign:"center",
                    margin:"20px",
-                   color: "#7a7c7f",
+                   color:"rgb(54, 69, 79)",
                    fontSize: "22px",
                    fontFamily: "Libre Baskerville , serif",
                    lineHeight: "45px", 
@@ -99,7 +100,7 @@ function TopProducts() {
             <Typography style={{
                    textAlign:"center",
                    margin:"20px",
-                   color: "#7a7c7f",
+                   color:"rgb(54, 69, 79)",
                    fontSize: "22px",
                    fontFamily: "Libre Baskerville , serif",
                    lineHeight: "45px", 
@@ -113,7 +114,7 @@ function TopProducts() {
             <Typography style={{
                   textAlign:"center",
                   margin:"20px",
-                  color: "#7a7c7f",
+                  color:"rgb(54, 69, 79)",
                   fontSize: "22px",
                   fontFamily: "Libre Baskerville , serif",
                   lineHeight: "45px", 
@@ -127,7 +128,7 @@ function TopProducts() {
             <Typography style={{
                   textAlign:"center",
                   margin:"20px",
-                  color: "#7a7c7f",
+                  color:"rgb(54, 69, 79)",
                   fontSize: "22px",
                   fontFamily: "Libre Baskerville , serif",
                   lineHeight: "45px", 

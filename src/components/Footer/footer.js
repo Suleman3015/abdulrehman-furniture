@@ -14,7 +14,7 @@ function Footer() {
         <div className='footerContainer'>
             <Typography style={{
                  fontFamily:"'Alegreya SC', serif",
-                 fontSize: matches === true ?"18px" : "22px",
+                 fontSize: matches === true ?"16px" : "22px",
                  fontWeight:"bold",
                  letterSpacing:"0.5px",
                  color:"white"
@@ -26,7 +26,7 @@ function Footer() {
         <div className='footerContainer'>
             <Typography style={{
                  fontFamily:"'Alegreya SC', serif",
-                 fontSize: matches === true ?"18px" : "22px",
+                 fontSize: matches === true ?"16px" : "22px",
                  fontWeight:"bold",
                  letterSpacing:"0.5px"
 
@@ -38,7 +38,7 @@ function Footer() {
         <div className='footerContainerSocial'>
             <Typography style={{
                  fontFamily:"'Alegreya SC', serif",
-                 fontSize: matches === true ?"18px" : "22px",
+                 fontSize: matches === true ?"16px" : "22px",
                  fontWeight:"bold",
                  letterSpacing:"0.5px"
 

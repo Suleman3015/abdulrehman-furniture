@@ -59,11 +59,12 @@ function Categories() {
     <div data-aos="fade-up" className="main">
         <Typography 
         style={{
-          fontSize: matches === true ? "5vw" : "2vw" ,
-          // marginBottom:"10px",
-          fontWeight: "600",
-          fontFamily:"'Alegreya SC', serif",
-          margin:"auto auto 10px auto"
+          fontSize: matches === true ? "5vw" : "28px" ,
+          letterSpacing:matches === true ? "1px":"3px",
+            fontWeight: "600",
+            fontFamily:"'Alegreya SC', serif",
+            margin:"auto auto 10px auto",
+            // color:"rgb(54, 69, 79)"
         }} 
         
         className="mainTypo">CATEGORIES</Typography>
