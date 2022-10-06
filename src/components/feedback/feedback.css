@@ -63,4 +63,9 @@
     font-size: 15px;
     line-height: 40px;
   }
+  .feedbackSemiMain {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+  }
 }
