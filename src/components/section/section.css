@@ -76,7 +76,12 @@
 
 
     .mainSection{
-        margin-top: 40px;
+        margin-top: 0px;
+        width: 100%;
+        margin-top: 0px;
+    
+        padding-top: 0vw;
+        padding-bottom: 0vw;
     }
 
         .para{
