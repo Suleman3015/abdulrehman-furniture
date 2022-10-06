@@ -32,7 +32,7 @@ function Hamburger() {
 
 
   return (
-    <div style={{backgroundColor:'#bb9c36'}} className="hamburgerContainer" >
+    <div style={{backgroundColor:'#B07C4F'}} className="hamburgerContainer" >
       <Container  maxWidth="lg" disableGutters="true">
     
         <Toolbar     style={{
@@ -60,14 +60,14 @@ function Hamburger() {
 
           {/* The outside of the drawer */}
           <div style={{
-            background:"#bb9c36"
+            background:"#B07C4F"
           }}>
           <Drawer
             PaperProps={{
 
               sx: {
                 // backgroundColor:"rgba(255, 255, 255, 0.19)"
-                background:"#bb9c36"
+                background:"#B07C4F"
               }
             }}
             //from which side the drawer slides in
