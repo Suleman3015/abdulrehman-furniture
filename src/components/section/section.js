@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
-import Fur from "../../content/New/chair.jpg";
-import FurMain from "../../content/jac.jpg";
+import Fur from "../../content/New/chair.jpg"
 import { Typography } from "@mui/material";
 import "./section.css";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Parallax ,ParallaxProvider ,ParallaxBanner} from 'react-scroll-parallax';
+import {ParallaxProvider ,ParallaxBanner} from 'react-scroll-parallax';
 
 
 function Section() {

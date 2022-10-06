@@ -6,15 +6,8 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import FastfoodIcon from '@mui/icons-material/Fastfood';
-import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import HotelIcon from '@mui/icons-material/Hotel';
-import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
-import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import Truck from "../../content/icons/truck.png"
-import Service from "../../content/icons/service.png"
-import Offers from "../../content/icons/offers.png"
 import Furniture from "../../content/icons/furniture.png"
 import useMediaQuery from "@mui/material/useMediaQuery";
  function Timelines() {
