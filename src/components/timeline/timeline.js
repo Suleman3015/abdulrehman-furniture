@@ -12,6 +12,7 @@ import Furniture from "../../content/icons/furniture.png";
 import useMediaQuery from "@mui/material/useMediaQuery";
 function Timelines() {
   const matches = useMediaQuery("(max-width:600px)");
+  const matches2 = useMediaQuery("(max-width:900px)");
   return (
     <div
       style={{
@@ -30,13 +31,13 @@ function Timelines() {
           </TimelineOppositeContent>
           <TimelineSeparator
             sx={{
-              height: matches === true ? "50vw" : "15vw",
+              height: matches === true ? "125px" :matches2 === true ? "22vw": "225px",
             }}
           >
             <TimelineConnector />
             <TimelineDot>
               {/* <LocalShippingIcon style={{color:"#66471d"}} /> */}
-              <img alt="vogue wood" height={50} src={Truck} />
+              <img alt="vogue wood" height={matches === true ?30 : 50} src={Truck} />
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
@@ -49,11 +50,9 @@ function Timelines() {
               {/* Eat */}
               service
             </Typography>
-            <Typography fontSize={matches === true ? "10px" : "15px"}>
+            <Typography fontSize={matches === true ? "8px" : "15px"}>
               is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.
+           
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -68,13 +67,13 @@ function Timelines() {
           </TimelineOppositeContent>
           <TimelineSeparator
             sx={{
-              height: matches === true ? "50vw" : "15vw",
+              height: matches === true ? "125px" :matches2 === true ? "22vw": "225px",
             }}
           >
             <TimelineConnector />
             <TimelineDot>
               {/* <LaptopMacIcon /> */}
-              <img alt="vogue wood" height={50} src={Furniture} />
+              <img alt="vogue wood" height={matches === true ?30 : 50} src={Furniture} />
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
@@ -87,11 +86,9 @@ function Timelines() {
               {/* Code */}
               Unbeatable
             </Typography>
-            <Typography fontSize={matches === true ? "10px" : "15px"}>
+            <Typography fontSize={matches === true ? "8px" : "15px"}>
               is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.
+            
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -107,13 +104,13 @@ function Timelines() {
           </TimelineOppositeContent>
           <TimelineSeparator
             sx={{
-              height: matches === true ? "50vw" : "15vw",
+              height: matches === true ? "125px" :matches2 === true ? "22vw": "225px",
             }}
           >
             <TimelineConnector />
             <TimelineDot>
               {/* <LocalShippingIcon style={{color:"#66471d"}} /> */}
-              <img alt="vogue wood" height={50} src={Truck} />
+              <img alt="vogue wood" height={matches === true ?30 : 50} src={Truck} />
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
@@ -126,11 +123,9 @@ function Timelines() {
               {/* Eat */}
               Fast
             </Typography>
-            <Typography fontSize={matches === true ? "10px" : "15px"}>
+            <Typography fontSize={matches === true ? "8px" : "12px"}>
               is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.
+             
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -145,13 +140,13 @@ function Timelines() {
           </TimelineOppositeContent>
           <TimelineSeparator
             sx={{
-              height: matches === true ? "50vw" : "15vw",
+              height: matches === true ? "125px" :matches2 === true ? "22vw": "225px",
             }}
           >
             <TimelineConnector />
             <TimelineDot>
               {/* <LaptopMacIcon /> */}
-              <img alt="vogue wood" height={50} src={Furniture} />
+              <img alt="vogue wood" height={matches === true ?30 : 50} src={Furniture} />
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
@@ -164,11 +159,9 @@ function Timelines() {
               {/* Code */}
               Unbeatable
             </Typography>
-            <Typography fontSize={matches === true ? "10px" : "15px"}>
+            <Typography fontSize={matches === true ? "8px" : "12px"}>
               is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. 
+             n  
             </Typography>
           </TimelineContent>
         </TimelineItem>
