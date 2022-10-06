@@ -26,12 +26,6 @@ function Section() {
       >
     <div  className="mainSection">
       <div className="semiMain">
-        {/* <img
-          data-aos="fade-right"
-          height={matches === true ? 300 : 400}
-          src={Fur}
-          alt="vogue wood"
-        /> */}
         <div data-aos="fade" className="typoSection">
           <Typography
             style={{

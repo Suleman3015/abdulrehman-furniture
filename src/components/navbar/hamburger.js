@@ -32,16 +32,16 @@ function Hamburger() {
 
 
   return (
-    <div style={{backgroundColor:'#B07C4F'}} className="hamburgerContainer" >
+    <div style={{backgroundColor:'rgba(255, 255, 255, 0.19)'}} className="hamburgerContainer" >
       <Container  maxWidth="lg" disableGutters="true">
     
         <Toolbar     style={{
           display:"flex",flexDirection:"row",width:"100%"
         }} >
           <IconButton
-            // edge="start"
-            // color="inherit"
-            // aria-label="open drawer"
+            edge="start"
+            color="inherit"
+            aria-label="open drawer"
             onClick={toggleDrawer(true)}
             style={{display:"flex",width:"100%",justifyContent:"space-between", flexDirection:"row-reverse" }}
 
@@ -59,15 +59,12 @@ function Hamburger() {
           </IconButton>
 
           {/* The outside of the drawer */}
-          <div style={{
-            background:"#B07C4F"
-          }}>
+          <div style={{backgroundColor:'rgba(255, 255, 255, 0.19)'}}>
           <Drawer
             PaperProps={{
 
               sx: {
-                // backgroundColor:"rgba(255, 255, 255, 0.19)"
-                background:"#B07C4F"
+                backgroundColor:"rgba(255, 255, 255, 0.19)"
               }
             }}
             //from which side the drawer slides in
@@ -101,21 +98,21 @@ function Hamburger() {
               <Box sx={{ mb: 2 }}>
                 <ListItemButton>
                   <ListItemIcon>
-                    <ImageIcon sx={{ color: "black" }} />
+                    <ImageIcon sx={{ color: "darkGray" }} />
                   </ListItemIcon>
                   <ListItemText primary="Home" />
                 </ListItemButton>
 
                 <ListItemButton>
                   <ListItemIcon>
-                    <DescriptionIcon sx={{ color: "black" }} />
+                    <DescriptionIcon sx={{ color: "darkGray" }} />
                   </ListItemIcon>
                   <ListItemText primary="About" />
                 </ListItemButton>
 
                 <ListItemButton>
                   <ListItemIcon>
-                    <FolderIcon sx={{ color: "black" }} />
+                    <FolderIcon sx={{ color: "darkGray" }} />
                   </ListItemIcon>
                   <ListItemText primary="Contact" />
                 </ListItemButton>
