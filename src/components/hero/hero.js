@@ -18,8 +18,8 @@ function Hero() {
       }}
       autoplay
       controller={{
-        slidingDuration: 300,
-        slidingDelay: 100,
+        slidingDuration: 600,
+        slidingDelay:50,
       }}
       style={{
         position: "sticky",

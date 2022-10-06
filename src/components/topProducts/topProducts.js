@@ -49,7 +49,7 @@ function TopProducts() {
         data-aos-duration="1000"
         style={{
           fontSize: matches === true ? "5vw" : "28px" ,
-          letterSpacing:matches === true ? "1px":"3px",
+          letterSpacing:"1px",
           fontWeight: "600",
           fontFamily:"'Alegreya SC', serif",
           margin: "auto auto 10px auto",
@@ -59,12 +59,28 @@ function TopProducts() {
         }}
         className="mainTypo"
       >
-    POPULAR PRODUCTS
+    Top Deals
       </Typography>
 
 
       <div  data-aos="fade-right"  style={{marginTop:"2vw"}} className="topProductsSemiMain">
       <Carousel responsive={responsive}>
+
+      <div  className="productsBox">
+            <img alt="voguewood" src={HotItem2} height={200}/>
+            <Typography style={{
+                   textAlign:"center",
+                   margin:"20px",
+                   color:"rgb(54, 69, 79)",
+                   fontSize: "22px",
+                   fontFamily: "Libre Baskerville , serif",
+                   lineHeight: "45px", 
+                   textShadow: "0 1px 1px #fff",
+            }}>Stylish Console</Typography>
+
+        </div>
+
+        
         <div   className="productsBox">
             <img 
             className="productImg"
@@ -81,19 +97,7 @@ function TopProducts() {
 
         </div>
 
-        <div  className="productsBox">
-            <img alt="voguewood" src={HotItem2} height={200}/>
-            <Typography style={{
-                   textAlign:"center",
-                   margin:"20px",
-                   color:"rgb(54, 69, 79)",
-                   fontSize: "22px",
-                   fontFamily: "Libre Baskerville , serif",
-                   lineHeight: "45px", 
-                   textShadow: "0 1px 1px #fff",
-            }}>Stylish Console</Typography>
-
-        </div>
+       
 
         <div  className="productsBox">
             <img alt="voguewood" src={HotItem3} height={200}/>

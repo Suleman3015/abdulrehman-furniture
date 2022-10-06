@@ -36,6 +36,8 @@ function Feedback() {
   };
   return (
     <div  className="feedbackMain">
+   
+      <div className="feedbackSemiMain">
       <Typography
       data-aos="fade-up"
       data-aos-duration="1000"
@@ -43,18 +45,18 @@ function Feedback() {
 
           // marginBottom:"10px",
           fontSize: matches === true ? "5vw" : "28px" ,
-          letterSpacing:matches === true ? "1px":"3px",
+          letterSpacing:"1px",
           // marginBottom:"10px",
           fontWeight: "600",
           fontFamily:"'Alegreya SC', serif",
-          margin: "auto auto 10px auto",
+          // margin: "10 10px 10px auto",
+
           textAlign: "center",
           // color:"rgb(54, 69, 79)"
         }}
       >
-        CUSTOMER REVIEWES
+        Customer Reviewes
       </Typography>
-      <div className="feedbackSemiMain">
         <Carousel responsive={responsive}>
           <div data-aos="fade-up" className="feedback">
             <Typography
@@ -76,16 +78,14 @@ function Feedback() {
               }}
             >
               
-              Rao Ali
+              Daniyal , 
             </Typography>
             <blockquote
               className="quote"
               cite="https://www.huxley.net/bnw/four.html"
             >
               <p className="feedbackTypo">
-                We have been purchasing furniture from VogueWood since the last
-                10 years. We appreciate their prompt service and so far we have
-                faced no complaints with their furniture.
+              Our experience with Vogue Wood's furniture is very fabulous, especially the quality of furniture wood and its polish finishing is very good
               </p>
             </blockquote>
             <Rating name="read-only" value={5} readOnly />
@@ -110,7 +110,7 @@ function Feedback() {
               }}
             >
               {" "}
-              Suleman ahmed
+              Suleman ahmed ,
             </Typography>
             <blockquote
               className="quote"
@@ -144,7 +144,7 @@ function Feedback() {
               }}
             >
               {" "}
-              Abdul Rehman
+              Abdul Rehman ,
             </Typography>
             <blockquote
               className="quote"
@@ -178,7 +178,7 @@ function Feedback() {
               }}
             >
               {" "}
-              Waleed Fahmid
+              Waleed Fahmid ,
             </Typography>
             <blockquote
               className="quote"

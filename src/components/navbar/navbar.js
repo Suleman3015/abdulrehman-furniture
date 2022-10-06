@@ -31,9 +31,13 @@ function Navbar() {
             <a className='a' href="/">CONTACT US</a>
             </div>
             <div className='icons'>
-                <FacebookIcon/>
-                <InstagramIcon/>
+           
+                <FacebookIcon />
+            
+                <InstagramIcon />
+                
                 <YouTubeIcon/>
+              
             </div>
         </div>
         

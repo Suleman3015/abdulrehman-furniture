@@ -59,15 +59,15 @@ function Categories() {
     <div data-aos="fade-up" className="main">
         <Typography 
         style={{
-          fontSize: matches === true ? "5vw" : "28px" ,
-          letterSpacing:matches === true ? "1px":"3px",
+          fontSize: matches === true ? "5vw" : "28px",
+          letterSpacing:"1px",
             fontWeight: "600",
             fontFamily:"'Alegreya SC', serif",
             margin:"auto auto 10px auto",
             // color:"rgb(54, 69, 79)"
         }} 
         
-        className="mainTypo">CATEGORIES</Typography>
+        className="mainTypo">Procure By Categories</Typography>
       <Carousel responsive={responsive}>
         
       <div style={{overflow:"hidden",height:"100%"}}>

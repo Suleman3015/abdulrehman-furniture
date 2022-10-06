@@ -2,47 +2,36 @@
     width: 100%;
     margin-top: 80px;
 
-    /* background-color: #785115; */
-    /* background-image: linear-gradient(
-  45deg,
-  hsl(18deg 96% 18%) 0%,
-  hsl(19deg 85% 22%) 11%,
-  hsl(22deg 81% 27%) 22%,
-  hsl(24deg 80% 31%) 33%,
-  hsl(26deg 79% 35%) 44%,
-  hsl(28deg 78% 39%) 56%,
-  hsl(30deg 78% 43%) 67%,
-  hsl(32deg 79% 46%) 78%,
-  hsl(34deg 79% 50%) 89%,
-  hsl(36deg 91% 53%) 100%
-); */
+    padding-top: 2vw;
+    padding-bottom: 6vw;
+    /* background-image: url("https://images.unsplash.com/photo-1422246654994-34520d5a0340?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
 }
 
 .semiMain{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    margin: auto;
+    /* margin: auto; */
     width: 90%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  */
 }
 
 .typoSection{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 45%;
     padding: 2vw;
     text-align: center;
 }
 
 .para{
-    color: #7a7c7f; 
-    font-size: 25px; 
+    color: white; 
+    font-size: 20px; 
     font-family: "Libre Baskerville", serif; 
-    line-height: 45px; 
+    /* line-height: 45px;  */
     text-align: center; 
-    text-shadow: 0 1px 1px #fff; 
+    /* text-shadow: 0 1px 1px #fff;  */
     padding-top: 20px; 
 }
 
@@ -65,33 +54,46 @@
         padding: 3vw;
     }
     .para{
-        color: #7a7c7f; 
         font-size: 15px; 
         font-family: "Libre Baskerville", serif; 
-        line-height: 30px; 
+        /* line-height: 30px;  */
         text-align: center; 
-        text-shadow: 0 1px 1px #fff; 
         padding-top: 20px; 
     }
 }
 
-@media only  screen and (max-width:600px){
+@media only  screen and (max-width:800px){
+
+    .semiMain{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        /* margin: auto; */
+        width: 90%;
+        margin: auto;
+        /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  */
+    }
+
+
     .mainSection{
         margin-top: 40px;
     }
 
         .para{
-            color: #7a7c7f; 
+            color: white; 
             font-size: 15px; 
+            font-weight: 100;
             font-family: "Libre Baskerville", serif; 
-            line-height: 22px; 
+            /* 
+              */
             text-align: center; 
-            text-shadow: 0 1px 1px #fff; 
+            /* text-shadow: 0 1px 1px #fff;  */
             padding-top: 0px; 
         }
         .typoSection{
             margin-top: 0vw;
             text-align: center;
+            justify-content: center;
             width: 100%;
             margin-bottom: 5vw;
             padding: 3vw;

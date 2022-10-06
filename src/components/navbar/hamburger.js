@@ -32,7 +32,7 @@ function Hamburger() {
 
 
   return (
-    <div style={{backgroundColor:'rgba(255, 255, 255, 0.19)'}} className="hamburgerContainer" >
+    <div style={{backgroundColor:'#bb9c36'}} className="hamburgerContainer" >
       <Container  maxWidth="lg" disableGutters="true">
     
         <Toolbar     style={{
@@ -59,12 +59,15 @@ function Hamburger() {
           </IconButton>
 
           {/* The outside of the drawer */}
-          <div style={{backgroundColor:'rgba(255, 255, 255, 0.19)'}}>
+          <div style={{
+            background:"#bb9c36"
+          }}>
           <Drawer
             PaperProps={{
 
               sx: {
-                backgroundColor:"rgba(255, 255, 255, 0.19)"
+                // backgroundColor:"rgba(255, 255, 255, 0.19)"
+                background:"#bb9c36"
               }
             }}
             //from which side the drawer slides in
@@ -98,21 +101,21 @@ function Hamburger() {
               <Box sx={{ mb: 2 }}>
                 <ListItemButton>
                   <ListItemIcon>
-                    <ImageIcon sx={{ color: "darkGray" }} />
+                    <ImageIcon sx={{ color: "black" }} />
                   </ListItemIcon>
                   <ListItemText primary="Home" />
                 </ListItemButton>
 
                 <ListItemButton>
                   <ListItemIcon>
-                    <DescriptionIcon sx={{ color: "darkGray" }} />
+                    <DescriptionIcon sx={{ color: "black" }} />
                   </ListItemIcon>
                   <ListItemText primary="About" />
                 </ListItemButton>
 
                 <ListItemButton>
                   <ListItemIcon>
-                    <FolderIcon sx={{ color: "darkGray" }} />
+                    <FolderIcon sx={{ color: "black" }} />
                   </ListItemIcon>
                   <ListItemText primary="Contact" />
                 </ListItemButton>
