@@ -64,6 +64,7 @@
 .footerPara{
     font-size: 15px;
     margin-top: 15px;
+    line-height: 22px;
     
 }
 
@@ -118,6 +119,7 @@
 
     .footerContainerSocial{
         width: 40%;
+        text-align: center !important;
     }
 
 }
