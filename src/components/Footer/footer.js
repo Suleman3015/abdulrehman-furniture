@@ -23,8 +23,39 @@ function Footer() {
           >
             Vogue Wood
           </Typography>
+          {/* <a href="/" className="footerA">
+            923208218168
+          </a> */}
+          {/* <a href="/" className="footerA">
+            suleman.ahmed0730@gmail.com
+          </a> */}
+          <p className="footerPara">
+            We specialize in classy Home Furniture, Home Decor, Office Furniture
+            and Living solutions, we have the skill to give the dream furniture
+            at the lowest price. A lot of care is taken to ensure that the
+            quality is not compromised. We have a very good relationship with
+            top wood providers of Pakistan + our own factory where all furniture
+            is made by hand with great care on order
+          </p>
+        </div>
+
+        <div className="footerContainer">
+          <Typography
+            style={{
+              fontFamily: "'Alegreya SC', serif",
+              fontSize: matches === true ? "16px" : "22px",
+              fontWeight: "bold",
+              letterSpacing: "0.5px",
+              color: "white",
+            }}
+          >
+            Contact Us
+          </Typography>
           <a href="/" className="footerA">
             923208218168
+          </a>
+          <a href="/" className="footerA">
+            923208978653
           </a>
           <a href="/" className="footerA">
             suleman.ahmed0730@gmail.com
@@ -63,20 +94,11 @@ function Footer() {
             Follow Us
           </Typography>
           <div className="footerIcon">
-         
-            <FacebookIcon
-             
+            <FacebookIcon className="footerSocial" />
 
-              className="footerSocial"
-            />
+            <InstagramIcon className="footerSocial" />
 
-            <InstagramIcon
-           
-              className="footerSocial"
-            />
-            
-            <YouTubeIcon className="footerSocial"  />
-            
+            <YouTubeIcon className="footerSocial" />
           </div>
         </div>
         {/* <div className='footerContainer'></div> */}
