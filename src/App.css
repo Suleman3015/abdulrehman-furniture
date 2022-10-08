@@ -4,3 +4,15 @@
   box-sizing: border-box;
   /* font-family: 'Kanit', sans-serif; */
 }
+
+.lines{
+  /* background-image: url("./content/lines.svg"); */
+
+  width: 100%;
+}
+
+.lineImg{
+  background-repeat: no-repeat;
+  object-fit: cover; 
+  width: 100%;
+}

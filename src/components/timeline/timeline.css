@@ -1,0 +1,95 @@
+.timeLineContainer{
+    margin-top: 40px;
+    width: 100%;
+
+   
+}
+.timelineMain{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    /* gap:20px; */
+    justify-content: space-between;
+    padding: 25px;
+
+}
+
+.timeLineBox{
+
+border-radius: 26rem;
+width: 32%;
+height: 350px; 
+
+}
+
+
+.timelineImg{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 18px;
+    filter: brightness(25%);
+   
+}
+
+.timelineTypo{
+    position: relative;
+    width:80%;
+    margin:auto;
+    bottom:210px;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+    
+}
+
+.headingh2{
+    text-align: center;
+    color:white;
+
+    /* font-size: 20px; */
+}
+
+.timelinePara{
+    text-align: center;
+    color:white
+}
+
+@media only  screen and (max-width:860px){
+    .headingh2{
+       font-size: 22px;    /* font-size: 20px; */
+    }
+    .timelinePara{
+        font-size: 15px;
+    }
+}
+
+@media only  screen and (max-width:600px){
+    .timelineMain{
+     
+        flex-direction: column;
+        gap:25px
+     
+    
+    }
+
+    .timeLineBox{
+
+        border-radius: 26rem;
+        width: 100%;
+        /* height: 100%;  */
+        
+        }
+        
+        .timelineTypo{
+            position: relative;
+            width:80%;
+            margin:auto;
+            /* bottom:55vw; */
+            display: flex;
+            flex-direction: column;
+            gap:10px
+            
+        }
+
+}

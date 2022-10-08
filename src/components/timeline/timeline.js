@@ -1,173 +1,87 @@
-import * as React from "react";
-import Timeline from "@mui/lab/Timeline";
-import TimelineItem from "@mui/lab/TimelineItem";
-import TimelineSeparator from "@mui/lab/TimelineSeparator";
-import TimelineConnector from "@mui/lab/TimelineConnector";
-import TimelineContent from "@mui/lab/TimelineContent";
-import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
-import TimelineDot from "@mui/lab/TimelineDot";
-import Typography from "@mui/material/Typography";
-import Truck from "../../content/icons/truck.png";
-import Furniture from "../../content/icons/furniture.png";
-import useMediaQuery from "@mui/material/useMediaQuery";
+import  React,{useEffect} from "react";
+import "./timeline.css"
+import Truck2 from "../../content/truck2.jpg"
+import Service from "../../content/service.jpg"
+import Offer from "../../content/offer.jpg"
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 function Timelines() {
-  const matches = useMediaQuery("(max-width:600px)");
-  const matches2 = useMediaQuery("(max-width:900px)");
+
+  useEffect(()=>{
+    Aos.init({duration:2000})
+},[])
+
+
+
   return (
-    <div
-      style={{
-        marginTop: "100px",
-      }}
+    <div className="timeLineContainer">
+    <div className="timelineMain"
     >
-      <Timeline position="alternate">
-        <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="text.secondary"
-          >
-            {/* 9:30 am */}
-          </TimelineOppositeContent>
-          <TimelineSeparator
-            sx={{
-              height: matches === true ? "125px" :matches2 === true ? "22vw": "225px",
-            }}
-          >
-            <TimelineConnector />
-            <TimelineDot>
-              {/* <LocalShippingIcon style={{color:"#66471d"}} /> */}
-              <img alt="vogue wood" height={matches === true ?30 : 50} src={Truck} />
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography
-              fontFamily={"serif"}
-              variant={matches === true ? "h5" : "h4"}
-              component="span"
-            >
-              {/* Eat */}
-              service
-            </Typography>
-            <Typography fontSize={matches === true ? "8px" : "15px"}>
-              is simply dummy text of the printing and typesetting industry.
-           
-            </Typography>
-          </TimelineContent>
-        </TimelineItem>
 
-        <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            variant="body2"
-            color="text.secondary"
-          >
-            {/* 10:00 am */}
-          </TimelineOppositeContent>
-          <TimelineSeparator
-            sx={{
-              height: matches === true ? "125px" :matches2 === true ? "22vw": "225px",
-            }}
-          >
-            <TimelineConnector />
-            <TimelineDot>
-              {/* <LaptopMacIcon /> */}
-              <img alt="vogue wood" height={matches === true ?30 : 50} src={Furniture} />
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography
-              fontFamily={"serif"}
-              variant={matches === true ? "h5" : "h4"}
-              component="span"
-            >
-              {/* Code */}
-              Unbeatable
-            </Typography>
-            <Typography fontSize={matches === true ? "8px" : "15px"}>
-              is simply dummy text of the printing and typesetting industry.
-            
-            </Typography>
-          </TimelineContent>
-        </TimelineItem>
+<div   className="timeLineBox">
+      {/* <img alt="voguewood" src={HotItem2} height={200}/> */}
+      <img
+      alt="vogue wood"
+       data-aos="fade-up"
+      src={Truck2}
+      className="timelineImg"
+    
+      />
 
-        <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            align="right"
-            variant="body2"
-            color="text.secondary"
-          >
-            {/* 9:30 am */}
-          </TimelineOppositeContent>
-          <TimelineSeparator
-            sx={{
-              height: matches === true ? "125px" :matches2 === true ? "22vw": "225px",
-            }}
-          >
-            <TimelineConnector />
-            <TimelineDot>
-              {/* <LocalShippingIcon style={{color:"#66471d"}} /> */}
-              <img alt="vogue wood" height={matches === true ?30 : 50} src={Truck} />
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography
-              fontFamily={"serif"}
-              variant={matches === true ? "h5" : "h4"}
-              component="span"
-            >
-              {/* Eat */}
-              Fast
-            </Typography>
-            <Typography fontSize={matches === true ? "8px" : "12px"}>
-              is simply dummy text of the printing and typesetting industry.
-             
-            </Typography>
-          </TimelineContent>
-        </TimelineItem>
+      <div data-aos="fade"  className="timelineTypo">
+ <h1 className="headingh2"> Free Delivery </h1>
+      <p className="timelinePara">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      </p>
+      </div>
+      </div>
 
-        <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: "auto 0" }}
-            variant="body2"
-            color="text.secondary"
-          >
-            {/* 10:00 am */}
-          </TimelineOppositeContent>
-          <TimelineSeparator
-            sx={{
-              height: matches === true ? "125px" :matches2 === true ? "22vw": "225px",
-            }}
-          >
-            <TimelineConnector />
-            <TimelineDot>
-              {/* <LaptopMacIcon /> */}
-              <img alt="vogue wood" height={matches === true ?30 : 50} src={Furniture} />
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography
-              fontFamily={"serif"}
-              variant={matches === true ? "h5" : "h4"}
-              component="span"
-            >
-              {/* Code */}
-              Unbeatable
-            </Typography>
-            <Typography fontSize={matches === true ? "8px" : "12px"}>
-              is simply dummy text of the printing and typesetting industry.
-             n  
-            </Typography>
-          </TimelineContent>
-        </TimelineItem>
-      </Timeline>
+   
+
+      <div className="timeLineBox">
+      {/* <img
+      alt="vogue wood" alt="voguewood" src={HotItem2} height={200}/> */}
+      <img
+      alt="vogue wood"
+       data-aos="fade-up"
+      src={Service}
+      className="timelineImg"
+      />
+
+      <div   data-aos="fade" className="timelineTypo">
+ <h1 className="headingh2"> Service </h1>
+      <p className="timelinePara">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      </p>
+      </div>
+      </div>
+
+      <div className="timeLineBox">
+      {/* <img
+      alt="vogue wood" alt="voguewood" src={HotItem2} height={200}/> */}
+      <img
+      alt="vogue wood"
+       data-aos="fade-up"
+      src={Offer}
+      className="timelineImg"
+      />
+
+      <div data-aos="fade" className="timelineTypo">
+ <h1 className="headingh2"> Offers</h1>
+      <p className="timelinePara">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      </p>
+      </div>
+      </div>
+    
+
     </div>
+    
+</div>
   );
 }
 
 export default Timelines;
+
+
