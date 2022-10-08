@@ -19,7 +19,7 @@ function Section() {
       marginTop:"100px"
     }}>
     <ParallaxProvider>
-    <ParallaxBanner  layers={[{ image: Fur, speed: -25,},
+    <ParallaxBanner  layers={[{ image: Fur, speed: 15,},
     
   
   ]}
