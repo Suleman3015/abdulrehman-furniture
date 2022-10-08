@@ -1,7 +1,7 @@
 .mainSection{
     width: 100%;
     margin-top: 80px;
-
+    scroll-behavior: smooth;
     padding-top: 2vw;
     padding-bottom: 6vw;
     /* background-image: url("https://images.unsplash.com/photo-1422246654994-34520d5a0340?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
