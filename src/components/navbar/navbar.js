@@ -6,6 +6,10 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Hamburger from './hamburger';
+import {
+ 
+  Link 
+} from "react-router-dom";
 
 function Navbar() {
   const matches = useMediaQuery('(max-width:800px)');
@@ -23,20 +27,33 @@ function Navbar() {
         }} height={100} src={Vogue} alt="vogue wood , furniture site, pakistani furniture , pakistan furniture market , vogue wood furniture"/>
         <div className='menu'>
             <div className='menuOptions'>
-            <a style={{
-                color: "rgba(0, 0, 0, 0.24) 0px 3px 8px"
-            }} className='a' href="/">HOME</a>
-            <a className='a' href="/">CATEGORIES</a>
-            <a className='a' href="/">ABOUT</a>
-            <a className='a' href="/">CONTACT US</a>
+            <Link className='a' to="/">HOME</Link>
+          
+            <Link className="a" to="/categories" >
+            CATEGORIES
+            </Link >
+          
+            <Link className='a' to="/">ABOUT</Link>
+            <Link exact className='a' to="/">CONTACT US</Link>
             </div>
             <div className='icons'>
            
+           <a style={{
+            color:"black"
+           }} href="https://m.facebook.com/Thevoguewood/">
                 <FacebookIcon />
+                </a>
             
+            <a style={{
+            color:"black"
+           }}  href="https://instagram.com/vogue_.wood?r=nametag">
                 <InstagramIcon />
+                </a>
                 
+
+               
                 <YouTubeIcon/>
+               
               
             </div>
         </div>

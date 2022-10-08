@@ -89,16 +89,23 @@ function Footer() {
               fontSize: matches === true ? "16px" : "22px",
               fontWeight: "bold",
               letterSpacing: "0.5px",
+              textAlign:"center"
             }}
           >
             Follow Us
           </Typography>
           <div className="footerIcon">
+            <a href="https://m.facebook.com/Thevoguewood/">
             <FacebookIcon className="footerSocial" />
+            </a>
 
+<a href="https://instagram.com/vogue_.wood?r=nametag
+">
             <InstagramIcon className="footerSocial" />
+            </a>
 
             <YouTubeIcon className="footerSocial" />
+          
           </div>
         </div>
         {/* <div className='footerContainer'></div> */}

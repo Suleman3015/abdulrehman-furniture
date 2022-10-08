@@ -15,9 +15,9 @@ function Layout({children}) {
         {children}
         <div  className='svg'>
           
-       
-        <img alt="vogue wood"  style={{marginRight: matches === true ? "3vw" :"0.5vw",cursor:"pointer"}} height={matches === true ? 40 : 60} src={Whatsapp} />
-   
+       <a href="https://wa.me/message/BTR4IAE2YVYTK1">
+        <img alt="vogue wood"   style={{marginRight: matches === true ? "3vw" :"0.5vw",cursor:"pointer"}} height={matches === true ? 40 : 60} src={Whatsapp} />
+   </a>
         </div>
         
         <Footer/>

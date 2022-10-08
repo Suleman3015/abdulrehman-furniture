@@ -41,7 +41,7 @@ function Section() {
               paddingTop: matchesMini === true ?"2px" : "20px",
             }}
           >
-            The Vogue Wood
+          Vogue Wood
           </Typography>
           <p className="para">
             Order the best furniture online in Pakistan. The Vogue Wood

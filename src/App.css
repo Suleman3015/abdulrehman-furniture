@@ -5,14 +5,3 @@
   /* font-family: 'Kanit', sans-serif; */
 }
 
-.lines{
-  /* background-image: url("./content/lines.svg"); */
-margin-top: 100px;
-  width: 100%;
-}
-
-.lineImg{
-  background-repeat: no-repeat;
-  object-fit: cover; 
-  width: 100%;
-}

@@ -1,30 +1,36 @@
 import './App.css';
-import Hero from "./components/hero/hero"
 import Layout from "./components/layout/layout"
-import Categories from "./components/categoriesGallery/categories"
-import Section from './components/section/section';
-import Feedback from './components/feedback/feedback';
-import TopProducts from './components/topProducts/topProducts';
-import Timelines from './components/timeline/timeline';
-import Lines from "./content/lines.svg"
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Home from "./Pages/home/home"
+import Categories from './Pages/categories/categoriesPage';
+
+
 function App() {
  
   return (
-    <Layout>
-    <Hero/>
-    <Categories />
-    <TopProducts/>
-    <Section/>
-    <div className='lines'>
-      <img alt="vogue wood" className='lineImg' src={Lines}/>
-    </div>
-    
-    <Timelines/>
-    <Feedback/>
+   
+       
+            <BrowserRouter>
+             <Layout>
+      <Routes>
+        <Route exact path="/" element={<Home/>}>
+          
+        </Route>
+        <Route path="/categories" element={ <Categories/>}>
+         
+        </Route>
+      </Routes>
+      </Layout>
+      </BrowserRouter>
+ 
  
 
    
-    </Layout>
+    
 
   );
 }
