@@ -1,10 +1,11 @@
 import React from 'react'
-import Section from '../../components/section/section'
+import CategoryComponent from '../../components/categoryComponent/categoryComponent'
 
 function Categories() {
   return (
     <div>
-    <Section/>
+    <CategoryComponent/>
+    
     </div>
   )
 }

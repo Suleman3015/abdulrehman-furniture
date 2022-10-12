@@ -4,7 +4,7 @@ import {Typography} from "@mui/material"
 import Bed from "../../content/categories/bed.jpg"
 import Sofe from "../../content/categories/sofa.jpg"
 import Dining from "../../content/categories/dining.jpg"
-import OfficeChair from "../../content/categories/officechair.jpg"
+import OfficeChair from "../../content/categories/office.jpg"
 import StudyTable from "../../content/categories/studytable.jpg"
 import Table from "../../content/categories/tables.jpg"
 import Dresser from "../../content/categories/dresser.jpg"
@@ -118,7 +118,7 @@ function Categories() {
         <Typography style={{
               fontSize:"25px",
               letterSpacing:"2px",
-              fontFamily:"'Alegreya SC', serif",}} className="Typo"> Stydy Tables</Typography>
+              fontFamily:"'Alegreya SC', serif",}} className="Typo"> Study Tables</Typography>
         <img alt="furniture" className="img" src={StudyTable} />
         </div>
         </div>

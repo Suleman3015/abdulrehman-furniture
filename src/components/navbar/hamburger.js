@@ -14,6 +14,9 @@ import FolderIcon from "@mui/icons-material/Folder";
 import ImageIcon from "@mui/icons-material/Image";
 import DescriptionIcon from "@mui/icons-material/Description";
 import "./navbar.css"
+import {
+  Link 
+} from "react-router-dom";
 import Vogue2 from "../../content/vogue.png"
 
 function Hamburger() {
@@ -103,6 +106,20 @@ function Hamburger() {
                   <ListItemText primary="Home" />
                 </ListItemButton>
 
+                <Link
+                 onClick={ () => setState(false)} 
+                style={{
+                  textDecoration:"none",
+                  color:"black"
+                }} to="/categories">
+                <ListItemButton>
+                  <ListItemIcon>
+                    <DescriptionIcon sx={{ color: "darkGray" }} />
+                  </ListItemIcon>
+                  <ListItemText primary="Categories" />
+                </ListItemButton>
+                </Link>
+
                 <ListItemButton>
                   <ListItemIcon>
                     <DescriptionIcon sx={{ color: "darkGray" }} />
@@ -114,6 +131,7 @@ function Hamburger() {
                   <ListItemIcon>
                     <FolderIcon sx={{ color: "darkGray" }} />
                   </ListItemIcon>
+          
                   <ListItemText primary="Contact" />
                 </ListItemButton>
               </Box>

@@ -1,8 +1,6 @@
 import React,{useEffect} from "react";
 import {Typography} from "@mui/material"
-
 import "./topProducts.css"
-import useMediaQuery from "@mui/material/useMediaQuery";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import HotItem from "../../content/hotItem.jpg"
@@ -14,8 +12,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 
-function TopProducts() {
-    const matches = useMediaQuery("(max-width:600px)");
+function TopProducts({boxColor,title,background,pex,align}) {
     useEffect(() => {
         Aos.init({ duration: 2500 });
       }, []);
@@ -48,22 +45,27 @@ function TopProducts() {
         data-aos="fade-up"
         data-aos-duration="1000"
         style={{
-          fontSize: matches === true ? "5vw" : "28px" ,
+          fontSize: pex ,
           letterSpacing:"1px",
-          fontWeight: "600",
+          fontWeight: "bold",
           fontFamily:"'Alegreya SC', serif",
           margin: "auto auto 10px auto",
-          textAlign: "center",
+          textAlign: `${align}`,
+          color:`${boxColor}`
           // color:"rgb(54, 69, 79)"
           
         }}
         className="mainTypo"
       >
-    Top Deals
+    {title}
       </Typography>
 
 
-      <div  data-aos="fade-right"  style={{marginTop:"2vw"}} className="topProductsSemiMain">
+      <div  data-aos="fade-right"  
+      style={{
+        marginTop:"2vw",
+        boxShadow:`${background}`,
+        }} className="topProductsSemiMain">
       <Carousel responsive={responsive}>
 
       <div  className="productsBox">
@@ -71,11 +73,13 @@ function TopProducts() {
             <Typography style={{
                    textAlign:"center",
                    margin:"20px",
-                   color:"rgb(54, 69, 79)",
+                   color:"black",
+                  //  color:"rgb(54, 69, 79)",
                    fontSize: "22px",
                    fontFamily: "Libre Baskerville , serif",
                    lineHeight: "45px", 
                    textShadow: "0 1px 1px #fff",
+             
             }}>Stylish Console</Typography>
 
         </div>

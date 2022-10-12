@@ -1,0 +1,143 @@
+.mainCategoryComponent{
+    width:100%;
+    margin-top: 150px;
+}
+
+.categoryHeading{
+    margin: auto;
+    width: 90%;
+    margin-bottom: 40px;
+ 
+}
+
+.categoryHeading > h1{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.semiCategoryComponent{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+}
+
+
+.categoryBoxes{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+/* text-align: center; */
+}
+
+
+
+.catCompTypo{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    padding-top: 8vw;
+    width: 23%;
+    position: absolute;
+    /* text-align:"" */
+    text-align: center;
+}
+
+.imgCategory{
+    width:100%;
+    object-fit: cover;
+    height: 100%;
+    filter:brightness(50%)
+    /* background-blend-mode: lighten; */
+}
+
+
+.hotItemMain{
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 3%, rgba(45,52,54,1) 100%); */
+    background: linear-gradient(90deg, rgba(175,130,49,1) 0%, rgba(122,83,12,1) 100%);
+    padding-top: 20px;
+    margin-top: 40px;
+
+
+
+}
+
+
+@media only  screen and (max-width:900px){
+    .semiCategoryComponent{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        justify-content: center;
+    }
+    .catCompTypo{
+        position: absolute;
+        z-index: 1;
+        color: white;
+        padding-top: 10vw;
+        width: 30%;
+        position: absolute;
+        /* text-align:"" */
+        text-align: center;
+    }
+}
+
+
+@media only  screen and (max-width:700px){
+    .mainCategoryComponent{
+        width:100%;
+        margin-top: 100px;
+    }
+
+    .categoryHeading{
+        margin: auto;
+        width: 90%;
+        margin-bottom: 40px;
+     
+    }
+
+
+    
+    .semiCategoryComponent{
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        
+        justify-content: center;
+    }
+
+    .catCompTypo{
+        position: absolute;
+        z-index: 1;
+        color: white;
+        padding-top: 30vw;
+        width: 90%;
+        position: absolute;
+        /* text-align:"" */
+        text-align: center;
+    }
+    
+    .imgCategory{
+        width:100%;
+        object-fit: cover;
+        height: 100%;
+        filter:brightness(70%)
+        /* background-blend-mode: lighten; */
+    }
+    
+
+}
+
+@media only  screen and (max-width:400px){
+
+.categoryHeading > h1{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+}

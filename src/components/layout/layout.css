@@ -1,5 +1,5 @@
 .svg{
-    position: sticky;
+    position: fixed;
     z-index: 2;
     bottom: 3vw;
     width: 100%;
