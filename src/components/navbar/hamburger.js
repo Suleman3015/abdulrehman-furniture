@@ -99,12 +99,20 @@ function Hamburger() {
               <Divider sx={{ mb: 2 }} />
 
               <Box sx={{ mb: 2 }}>
+
+              <Link
+                 onClick={ () => setState(false)} 
+                style={{
+                  textDecoration:"none",
+                  color:"black"
+                }} to="/">
                 <ListItemButton>
                   <ListItemIcon>
                     <ImageIcon sx={{ color: "darkGray" }} />
                   </ListItemIcon>
                   <ListItemText primary="Home" />
                 </ListItemButton>
+                </Link>
 
                 <Link
                  onClick={ () => setState(false)} 
