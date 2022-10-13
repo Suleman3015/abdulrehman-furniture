@@ -17,7 +17,7 @@ function Footer() {
           <Typography
             style={{
               fontFamily: "'Alegreya SC', serif",
-              fontSize: matches === true ? "14px" : "22px",
+              fontSize: matches === true ? "12px" : "22px",
               fontWeight: "bold",
               letterSpacing: "0.5px",
               color:"lightgray",
@@ -40,7 +40,7 @@ function Footer() {
           <Typography
             style={{
               fontFamily: "'Alegreya SC', serif",
-              fontSize: matches === true ? "14px" : "22px",
+              fontSize: matches === true ? "12px" : "22px",
               fontWeight: "bold",
               letterSpacing: "0.5px",
               color:"lightgray",
@@ -62,7 +62,7 @@ function Footer() {
           <Typography
             style={{
               fontFamily: "'Alegreya SC', serif",
-              fontSize: matches === true ? "14px" : "22px",
+              fontSize: matches === true ? "12px" : "22px",
               fontWeight: "bold",
               color:"lightgray",
               letterSpacing: "0.5px",
@@ -84,7 +84,7 @@ function Footer() {
           <Typography
             style={{
               fontFamily: "'Alegreya SC', serif",
-              fontSize: matches === true ? "14px" : "22px",
+              fontSize: matches === true ? "12px" : "22px",
               fontWeight: "bold",
               letterSpacing: "0.5px",
               textAlign:"center",
