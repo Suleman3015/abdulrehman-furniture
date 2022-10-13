@@ -11,12 +11,13 @@ function Footer() {
   return (
     <div className="mainFooter">
       <img alt="voguewood" className="footerimg" src={Footerimg} />
+      <div className="semiFooter">
       <div className="semiMainFooter">
         <div className="footerContainer">
           <Typography
             style={{
               fontFamily: "'Alegreya SC', serif",
-              fontSize: matches === true ? "16px" : "22px",
+              fontSize: matches === true ? "14px" : "22px",
               fontWeight: "bold",
               letterSpacing: "0.5px",
               color:"lightgray",
@@ -39,7 +40,7 @@ function Footer() {
           <Typography
             style={{
               fontFamily: "'Alegreya SC', serif",
-              fontSize: matches === true ? "16px" : "22px",
+              fontSize: matches === true ? "14px" : "22px",
               fontWeight: "bold",
               letterSpacing: "0.5px",
               color:"lightgray",
@@ -50,9 +51,9 @@ function Footer() {
           <a href="/" className="footerA">
             923208218168
           </a>
-          <a href="/" className="footerA">
+          {/* <a href="/" className="footerA">
             923208978653
-          </a>
+          </a> */}
           <a href="/" className="footerA">
             suleman.ahmed0730@gmail.com
           </a>
@@ -61,7 +62,7 @@ function Footer() {
           <Typography
             style={{
               fontFamily: "'Alegreya SC', serif",
-              fontSize: matches === true ? "16px" : "22px",
+              fontSize: matches === true ? "14px" : "22px",
               fontWeight: "bold",
               color:"lightgray",
               letterSpacing: "0.5px",
@@ -83,7 +84,7 @@ function Footer() {
           <Typography
             style={{
               fontFamily: "'Alegreya SC', serif",
-              fontSize: matches === true ? "16px" : "22px",
+              fontSize: matches === true ? "14px" : "22px",
               fontWeight: "bold",
               letterSpacing: "0.5px",
               textAlign:"center",
@@ -110,6 +111,7 @@ function Footer() {
       
       </div>
       <Typography className="copyright">© 2022 Vogue Wood</Typography>
+      </div>
     </div>
   );
 }
