@@ -169,7 +169,7 @@
     .footerContainerSocial{
         width: 40%;
         text-align: center !important;
-        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
     }
     /* .copyright{
         font-size: 15px !important;
