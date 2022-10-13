@@ -133,6 +133,14 @@
     margin-top: 15px;
     justify-content: space-between;
 }
+.footerimg{
+
+    /* background-size: cover; */
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: -webkit-fill-available;
+}
 
 }
 
@@ -149,7 +157,7 @@
     }
 
     .copyright{
-        font-size: 9px !important;
+        font-size: 12px !important;
         height:"0.5px"!important;
     }
 
@@ -163,25 +171,8 @@
         text-align: center !important;
         padding-bottom: 20px;
     }
+    /* .copyright{
+        font-size: 15px !important;
+    } */
 
-}
-
-
-@media only  screen and (max-width:800px){
-.footerimg{
-
-    /* background-size: cover; */
-    object-fit: cover;
-    position: absolute;
-    width: 100%;
-    height: -webkit-fill-available;
-    /* top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px; */
- 
-
-
-
-}
 }
