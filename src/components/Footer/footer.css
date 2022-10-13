@@ -1,21 +1,54 @@
 .mainFooter{
     width:100%;
-    background-color:#1f1f1f;
+    /* background-color:#1f1f1f; */
     /* padding:"8vw" */
-    padding-top: 12vw;
+    /* padding-top: 12vw; */
     padding-bottom: 1vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* height: 30vh; */
+    justify-content: space-evenly;
+
+    /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../../content/footer2.jpg"); */
+    /* position: relative; */
+    /* object-fit: cover; */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(20%); */
+    /* background: rgba(60, 60, 60, 0.4); */
+   
+    
     /* position: fixed;
     bottom:0px; */
 }
 
+
+.footerimg{
+
+    /* background-size: cover; */
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    filter: brightness(15%);
+    /* height: -webkit-fill-available !important; */
+    /* top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px; */
+ 
+
+
+
+}
 .semiMainFooter{
     width: 90%;
     display: flex;
     justify-content: space-around;
     margin: auto auto 8vw auto;
+    position: relative;
+    /* position: relative;
+    z-index: 2; */
 }
 
 
@@ -47,6 +80,7 @@
     text-align: center;
     margin-bottom: 4px;
     color: lightgray;
+    position: relative;
 
 }
 
@@ -56,6 +90,7 @@
     cursor: pointer;
     color: lightgray;
     text-decoration: none;
+    font-size: 14px;
     /* text-align: center; */
 }
 
@@ -64,10 +99,16 @@
 }
 
 .footerPara{
-    font-size: 15px;
+    font-size: 14px;
     /* margin-top: 15px; */
     line-height: 22px;
+    color: lightgray;
+    margin-top: 15px;
     
+}
+
+.logoFooter{
+    width: 100%;
 }
 
 @media only  screen and (max-width:800px){
@@ -124,4 +165,24 @@
         text-align: center !important;
     }
 
+}
+
+
+@media only  screen and (max-width:800px){
+.footerimg{
+
+    /* background-size: cover; */
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: -webkit-fill-available;
+    /* top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px; */
+ 
+
+
+
+}
 }

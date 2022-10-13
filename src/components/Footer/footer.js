@@ -5,11 +5,12 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import useMediaQuery from "@mui/material/useMediaQuery";
-
+import Footerimg from "../../content/footer.jpg"
 function Footer() {
   const matches = useMediaQuery("(max-width:800px)");
   return (
     <div className="mainFooter">
+      <img alt="voguewood" className="footerimg" src={Footerimg} />
       <div className="semiMainFooter">
         <div className="footerContainer">
           <Typography
@@ -18,17 +19,12 @@ function Footer() {
               fontSize: matches === true ? "16px" : "22px",
               fontWeight: "bold",
               letterSpacing: "0.5px",
-              color: "white",
+              color:"lightgray",
             }}
           >
             Vogue Wood
           </Typography>
-          {/* <a href="/" className="footerA">
-            923208218168
-          </a> */}
-          {/* <a href="/" className="footerA">
-            suleman.ahmed0730@gmail.com
-          </a> */}
+       
           <p className="footerPara">
             We specialize in classy Home Furniture, Home Decor, Office Furniture
             and Living solutions, we have the skill to give the dream furniture
@@ -46,7 +42,7 @@ function Footer() {
               fontSize: matches === true ? "16px" : "22px",
               fontWeight: "bold",
               letterSpacing: "0.5px",
-              color: "white",
+              color:"lightgray",
             }}
           >
             Contact Us
@@ -67,6 +63,7 @@ function Footer() {
               fontFamily: "'Alegreya SC', serif",
               fontSize: matches === true ? "16px" : "22px",
               fontWeight: "bold",
+              color:"lightgray",
               letterSpacing: "0.5px",
             }}
           >
@@ -89,7 +86,9 @@ function Footer() {
               fontSize: matches === true ? "16px" : "22px",
               fontWeight: "bold",
               letterSpacing: "0.5px",
-              textAlign:"center"
+              textAlign:"center",
+
+              color:"lightgray",
             }}
           >
             Follow Us
@@ -108,7 +107,7 @@ function Footer() {
           
           </div>
         </div>
-        {/* <div className='footerContainer'></div> */}
+      
       </div>
       <Typography className="copyright">© 2022 Vogue Wood</Typography>
     </div>
