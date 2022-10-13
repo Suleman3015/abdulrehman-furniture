@@ -22,6 +22,7 @@
   flex-direction: column;
   position: absolute;
   z-index: 2;
+  height: 38vw;
 }
 .semiMainFooter {
   width: 90%;
@@ -129,7 +130,7 @@
   }
 
   .footerPara {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .footerA {
