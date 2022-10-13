@@ -45,7 +45,7 @@
     width: 90%;
     display: flex;
     justify-content: space-around;
-    margin: auto auto 8vw auto;
+    margin: auto ;
     position: relative;
     /* position: relative;
     z-index: 2; */
@@ -107,9 +107,7 @@
     
 }
 
-.logoFooter{
-    width: 100%;
-}
+
 
 @media only  screen and (max-width:800px){
    .semiMainFooter{
