@@ -9,11 +9,12 @@ import Home from "./Pages/home/home"
 import Categories from './Pages/categories/categoriesPage';
 
 
+
 function App() {
  
   return (
    
-       
+    
             <BrowserRouter>
              <Layout>
       <Routes>
@@ -26,6 +27,7 @@ function App() {
       </Routes>
       </Layout>
       </BrowserRouter>
+   
  
  
 

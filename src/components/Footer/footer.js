@@ -6,8 +6,12 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Footerimg from "../../content/footer.jpg"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope , faPhone , faLocationDot,} from '@fortawesome/free-solid-svg-icons'
+import What from "../../content/whats.png"
 function Footer() {
   const matches = useMediaQuery("(max-width:800px)");
+  const matchesmini = useMediaQuery("(max-width:600px")
   return (
     <div className="mainFooter">
       <img alt="voguewood" className="footerimg" src={Footerimg} />
@@ -49,14 +53,30 @@ function Footer() {
             Contact Us
           </Typography>
           <a href="/" className="footerA">
-            923208218168
+          <FontAwesomeIcon className="footerIcons" icon={faLocationDot} />
+           plot 62 A, Block 2 S.F.C, Karachi, Sindh 75230
           </a>
+          
+          <a href="/" className="footerA">
+          <FontAwesomeIcon className="footerIcons" icon={faPhone} />
+            92343220625
+          </a>
+          <div className="whatsappCont" style={{marginTop:matchesmini === true ? "5px" :"12px"}}>
+          <img alt="voguewood" src={What} height={matches === true ? 12 :18} style={{marginRight:"7px"}} />
+          <a href="/" className="footerAA">
+      
+            923185896448
+          </a>
+          </div>
+          <a href="/" className="footerA">
+          <FontAwesomeIcon className="footerIcons" icon={faEnvelope} />
+           thevoguewood@gmail.com
+          </a>
+          
           {/* <a href="/" className="footerA">
             923208978653
           </a> */}
-          <a href="/" className="footerA">
-            suleman.ahmed0730@gmail.com
-          </a>
+        
         </div>
         <div className="footerContainer">
           <Typography

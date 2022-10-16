@@ -8,7 +8,8 @@ import Feedback from '../../components/feedback/feedback'
 import "./home.css"
 import Lines from "../../content/lines3.png"
 import useMediaQuery from "@mui/material/useMediaQuery";
-
+import ContactUs from '../../components/Form/form'
+import { SnackbarProvider} from 'notistack';
 
 function Home() {
   const matches = useMediaQuery("(max-width:600px)");
@@ -24,6 +25,9 @@ function Home() {
     
     <Timelines/>
     <Feedback/>
+    <SnackbarProvider maxSnack={3} >
+    <ContactUs/>
+    </SnackbarProvider>
     </>
   )
 }
