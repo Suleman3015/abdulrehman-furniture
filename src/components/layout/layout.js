@@ -15,9 +15,18 @@ function Layout({children}) {
         {children}
         <div  className='svg'>
           
+          <div style={{
+            display:"flex",
+            flexDirection:"column",
+            alignItems:"center"
+          }}>
        <a href="https://wa.me/message/BTR4IAE2YVYTK1">
-        <img alt="vogue wood"   style={{marginRight: matches === true ? "3vw" :"0.5vw",cursor:"pointer"}} height={matches === true ? 40 : 60} src={Whatsapp} />
+        <img alt="vogue wood"   style={{marginRight: matches === true ? "3vw" :"0.5vw",cursor:"pointer"}} height={matches === true ? 37 : 60} src={Whatsapp} />
    </a>
+   {/* <a href="tel:0343220625">
+        <img alt="vogue wood"   style={{marginRight: matches === true ? "3vw" :"0.5vw",cursor:"pointer"}} height={matches === true ? 45 : 70} src={Phone} />
+   </a> */}
+   </div>
         </div>
         
         <Footer/>

@@ -13,14 +13,17 @@ import ListItemText from "@mui/material/ListItemText";
 import FolderIcon from "@mui/icons-material/Folder";
 import ImageIcon from "@mui/icons-material/Image";
 import DescriptionIcon from "@mui/icons-material/Description";
+import Phone from "../../content/call.svg"
 import "./navbar.css"
 import {
   Link 
 } from "react-router-dom";
 import Vogue2 from "../../content/vogue.png"
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 function Hamburger() {
   const [open, setState] = useState(false);
+  const matches = useMediaQuery('(max-width:500px)');
 
   const toggleDrawer = (open) => (event) => {
     if (
@@ -39,8 +42,9 @@ function Hamburger() {
       <Container  maxWidth="lg" disableGutters="true">
     
         <Toolbar     style={{
-          display:"flex",flexDirection:"row",width:"100%"
+          display:"flex",flexDirection:"row",width:"100%",paddingRight:"0px"
         }} >
+          
           <IconButton
             edge="start"
             color="inherit"
@@ -55,10 +59,22 @@ function Hamburger() {
               }
             }}
           >
+      
 
             <img className="logoImg" src={Vogue2} alt="furniture" />
            
-            <MenuIcon />
+           <div
+           style={{display:"flex",
+           alignItems:"center"}}
+           >
+      
+           <a href="tel:0343220625">
+        <img alt="vogue wood"   style={{marginRight: matches === true ? "3vw" :"0.5vw",cursor:"pointer"}} height={17} src={Phone} />
+   </a>
+   <MenuIcon  />
+            
+           </div>
+       
           </IconButton>
 
           {/* The outside of the drawer */}
