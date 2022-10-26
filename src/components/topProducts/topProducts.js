@@ -41,15 +41,14 @@ function TopProducts({boxColor,title,background,pex,align}) {
       };
   return (
     <div className="topProductsMain">
-      <Typography
+      <h1
         data-aos="fade-up"
         data-aos-duration="1000"
         style={{
-          fontSize: pex ,
           letterSpacing:"1px",
           fontWeight: "bold",
           fontFamily:"'Alegreya SC', serif",
-          margin: "auto auto 10px auto",
+          margin: "auto auto 20px auto",
           textAlign: `${align}`,
           color:`${boxColor}`
           // color:"rgb(54, 69, 79)"
@@ -58,7 +57,7 @@ function TopProducts({boxColor,title,background,pex,align}) {
         className="mainTypo"
       >
     {title}
-      </Typography>
+      </h1>
 
 
       <div  data-aos="fade-right"  
