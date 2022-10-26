@@ -9,10 +9,13 @@ import HotItem3 from "../../content/hotItem3.jpg"
 import HotItem4 from "../../content/hotItem4.jpg"
 import HotItem5 from "../../content/hotItem5.jpg"
 import Aos from "aos";
+import useMediaQuery from '@mui/material/useMediaQuery';
+
 import "aos/dist/aos.css";
 
 
 function TopProducts({boxColor,title,background,pex,align}) {
+  const matches = useMediaQuery('(max-width:550px)');
     useEffect(() => {
         Aos.init({ duration: 2500 });
       }, []);
@@ -41,7 +44,28 @@ function TopProducts({boxColor,title,background,pex,align}) {
       };
   return (
     <div className="topProductsMain">
-      <h1
+      {
+        matches ? 
+        <h2
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        style={{
+          letterSpacing:"1px",
+          fontWeight: "bold",
+          fontFamily:"'Alegreya SC', serif",
+          margin: "auto auto 20px auto",
+          textAlign: `${align}`,
+          color:`${boxColor}`
+          // color:"rgb(54, 69, 79)"
+          
+        }}
+        className="mainTypo"
+      >
+    {title}
+      </h2>
+        
+        :
+        <h1
         data-aos="fade-up"
         data-aos-duration="1000"
         style={{
@@ -58,6 +82,8 @@ function TopProducts({boxColor,title,background,pex,align}) {
       >
     {title}
       </h1>
+      }
+     
 
 
       <div  data-aos="fade-right"  
