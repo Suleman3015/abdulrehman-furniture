@@ -66,8 +66,7 @@
     
 
     .valueText{
-        width: 80%;
-        font-size: 23px;
+        font-size: 25px;
         background: -webkit-linear-gradient(black, rgba(122,83,12,1));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
