@@ -57,7 +57,7 @@
 @media only screen and (max-width: 500px) {
 
     .valueInnerMain{
-        width: 90%;
+        width: 80%;
         padding: 15px;
         margin: auto;
         border-bottom: 4px solid rgba(122,83,12,1);
