@@ -1,59 +1,30 @@
 
-import Bed from "../content/categories/bed.jpg"
-import Bookshelves from "../content/categories/bookshelves.jpg"
-import Bunkbed from "../content/categories/bunkbed.jpg"
-import Dining from "../content/categories/dining.jpg"
-import Dresser from "../content/categories/dresser.jpg"
-import Kitchen from "../content/categories/kitchen.jpg"
-import Office from "../content/categories/office.jpg"
-import Sofa from "../content/categories/sofa.jpg"
-import Studytable from "../content/categories/studytable.jpg"
-import Tables from "../content/categories/tables.jpg"
-import Wardrobes from "../content/categories/wardrobes.jpg"
+import HotItem from "../content/hotItem.jpg"
+import HotItem2 from "../content/hotItem2.jpg"
+import HotItem3 from "../content/hotItem3.jpg"
+import HotItem4 from "../content/hotItem4.jpg"
+import HotItem5 from "../content/hotItem5.jpg"
 
 export const TopProductsLists = [
     {
-        title : "beds",
-        productImg : Bed
+        title : "Stylish Console",
+        productImg : HotItem2
     },
     {
-        title : "Sofas",
-        productImg : Sofa
+        title : "Wooden Lamp",
+        productImg : HotItem
     },
     {
-        title : "Dining",
-        productImg : Dining
+        title : "Wooden Chair",
+        productImg : HotItem3
     },
     {
-        title : "Office Chair",
-        productImg : Office
+        title : "Bed Side Table",
+        productImg : HotItem4
     },
     {
-        title : "Study Tables",
-        productImg : Studytable
+        title : "Bed Side Console",
+        productImg : HotItem5
     },
-    {
-        title : "Tables",
-        productImg :Tables
-    },
-    {
-        title : "Dresser",
-        productImg : Dresser
-    },
-    {
-        title : "Wardrobes",
-        productImg : Wardrobes
-    },
-    {
-        title : "Bunked Beds",
-        productImg : Bunkbed
-    },
-    {
-        title : "Book Shelves",
-        productImg : Bookshelves 
-    },
-    {
-        title : "Kitchen",
-        productImg : Kitchen
-    },
+   
 ]

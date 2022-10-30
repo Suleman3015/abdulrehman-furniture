@@ -1,0 +1,87 @@
+.ValuemainComp{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+
+.valueInnerMain{
+    width: 70%;
+    padding: 25px;
+    margin: auto;
+    border-bottom: 4px solid rgba(122,83,12,1);
+    
+}
+
+
+.valueText{
+    font-size: 50px;
+    background: -webkit-linear-gradient(black, rgba(122,83,12,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  
+}
+
+.valueFont{
+
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .valueText{
+        font-size: 40px;
+        background: -webkit-linear-gradient(black, rgba(122,83,12,1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+      
+    }
+    
+    .valueFont{
+    
+        font-size: 18px;
+        text-align: center;
+        line-height: 30px;
+        
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .valueInnerMain{
+        width: 90%;
+        padding: 15px;
+        margin: auto;
+        border-bottom: 4px solid rgba(122,83,12,1);
+        
+    }
+    
+
+    .valueText{
+        font-size: 25px;
+        background: -webkit-linear-gradient(black, rgba(122,83,12,1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+      
+    }
+    
+    .valueFont{
+    
+        font-size: 14px;
+        text-align: center;
+        line-height: 22px;
+        
+    }
+}
+
+
+/* background: linear-gradient(90deg, rgba(175,130,49,1) 0%,  100%); */

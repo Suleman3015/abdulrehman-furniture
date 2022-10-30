@@ -8,6 +8,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import "aos/dist/aos.css";
 import {ParallaxProvider ,ParallaxBanner} from 'react-scroll-parallax';
 import Fur from "../../content/hero66.jpg"
+import { reviewsStatic } from "../../static/reviews.static";
 
 function Feedback() {
   const matches = useMediaQuery("(max-width:600px)");
@@ -59,159 +60,50 @@ function Feedback() {
           // color:"rgb(54, 69, 79)"
         }}
       >
-        Customer Reviewes
+        Customer Satisfaction
         
       </Typography>
        
         <div className="feedbackBoxContainer">
            <Carousel responsive={responsive}>
-          <div className="feedback">
+
+            {
+              reviewsStatic.map((elem)=>{
+                return(
+
+                  <div className="feedback">
        
-            <blockquote
-              className="quote"
-              cite="https://www.huxley.net/bnw/four.html"
-            >
-            
-              <p className="feedbackTypo">
-              Our experience with Vogue Wood's furniture is very fabulous, especially the quality of furniture wood and its polish finishing is very good
-              </p>
-    
-              <Rating name="read-only" value={5} readOnly />
-              <Typography
-              style={{
-                textAlign:"end",
-                fontSize: matches === true ? "15px" : "20px",
-                fontFamily:"'Alegreya SC', serif",
-                color:"lightgray",
-                fontWeight:"bold"
-              
-              }}
-            >
-              
-              Daniyal , 
-            </Typography>
-            </blockquote>
+                  <blockquote
+                    className="quote"
+                    cite="https://www.huxley.net/bnw/four.html"
+                  >
+                  
+                    <p className="feedbackTypo">
+                  {elem.rev}
+                    </p>
           
-          </div>
+                    <Rating name="read-only" value={elem.rating} readOnly />
+                    <Typography
+                    style={{
+                      textAlign:"end",
+                      fontSize: matches === true ? "15px" : "20px",
+                      fontFamily:"'Alegreya SC', serif",
+                      color:"lightgray",
+                      fontWeight:"bold"
+                    
+                    }}
+                  >
+                    
+                    {elem.name} , 
+                  </Typography>
+                  </blockquote>
+                
+                </div>
 
-          <div className="feedback">
-       
-            <blockquote
-              className="quote"
-              cite="https://www.huxley.net/bnw/four.html"
-            >
-            
-              <p className="feedbackTypo">
-              Our experience with Vogue Wood's furniture is very fabulous, especially the quality of furniture wood and its polish finishing is very good
-              </p>
-    
-              <Rating name="read-only" value={5} readOnly />
-              <Typography
-              style={{
-                textAlign:"end",
-                fontSize: matches === true ? "15px" : "20px",
-                fontFamily:"'Alegreya SC', serif",
-                color:"lightgray",
-                fontWeight:"bold"
-              
-              }}
-            >
-              
-              Daniyal , 
-            </Typography>
-            </blockquote>
-          
-          </div>
+                )
 
-          <div className="feedback">
-       
-            <blockquote
-              className="quote"
-              cite="https://www.huxley.net/bnw/four.html"
-            >
-            
-              <p className="feedbackTypo">
-              Our experience with Vogue Wood's furniture is very fabulous, especially the quality of furniture wood and its polish finishing is very good
-              </p>
-    
-              <Rating name="read-only" value={5} readOnly />
-              <Typography
-              style={{
-                textAlign:"end",
-                fontSize: matches === true ? "15px" : "20px",
-                fontFamily:"'Alegreya SC', serif",
-                color:"lightgray",
-                fontWeight:"bold"
-              
-              }}
-            >
-              
-              Daniyal , 
-            </Typography>
-            </blockquote>
-          
-          </div>
-
-          <div className="feedback">
-       
-       <blockquote
-         className="quote"
-         cite="https://www.huxley.net/bnw/four.html"
-       >
-       
-         <p className="feedbackTypo">
-         Our experience with Vogue Wood's furniture is very fabulous, especially the quality of furniture wood and its polish finishing is very good
-         </p>
-
-         <Rating name="read-only" value={5} readOnly />
-         <Typography
-         style={{
-           textAlign:"end",
-           fontSize: matches === true ? "15px" : "20px",
-           fontFamily:"'Alegreya SC', serif",
-           color:"lightgray",
-           fontWeight:"bold"
-         
-         }}
-       >
-         
-         Daniyal , 
-       </Typography>
-       </blockquote>
-     
-     </div>
-
-     <div className="feedback">
-       
-       <blockquote
-         className="quote"
-         cite="https://www.huxley.net/bnw/four.html"
-       >
-       
-         <p className="feedbackTypo">
-         Our experience with Vogue Wood's furniture is very fabulous, especially the quality of furniture wood and its polish finishing is very good
-         </p>
-
-         <Rating name="read-only" value={5} readOnly />
-         <Typography
-         style={{
-           textAlign:"end",
-           fontSize: matches === true ? "15px" : "20px",
-           fontFamily:"'Alegreya SC', serif",
-           color:"lightgray",
-           fontWeight:"bold"
-         
-         }}
-       >
-         
-         Daniyal , 
-       </Typography>
-       </blockquote>
-     
-     </div>
-
-
- 
+              })
+            }
           </Carousel>
 
 </div>

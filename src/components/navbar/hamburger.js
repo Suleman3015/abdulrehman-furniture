@@ -71,7 +71,7 @@ function Hamburger() {
            <a href="tel:0343220625">
         <img alt="vogue wood"   style={{marginRight: matches === true ? "3vw" :"0.5vw",cursor:"pointer"}} height={17} src={Phone} />
    </a>
-   <MenuIcon  />
+   <MenuIcon size="lg" />
             
            </div>
        

@@ -3,7 +3,7 @@ import "./categorycomponent.css";
 import { Typography } from "@mui/material";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import TopProducts from "../topProducts/topProducts";
-import { TopProductsLists} from "../../static/topProducts.static"
+import { categoriesStatic} from "../../static/categories.static"
 
 function CategoryComponent() {
   // const [loading, setLoading] = useState(false);
@@ -21,7 +21,7 @@ function CategoryComponent() {
           <>
 
           {
-            TopProductsLists.map((elem)=>{
+            categoriesStatic.map((elem)=>{
               return(
 
               <div className="categoryBoxes">
@@ -43,7 +43,7 @@ function CategoryComponent() {
                   }}
                   className="catCompTypo"
                 >
-                  {elem.title}
+                  {elem.Head}
                 </Typography>
               </div>
 
@@ -51,7 +51,7 @@ function CategoryComponent() {
                 alt="furniture"
                 className="imgCategory"
                 // onLoad={() => setLoading(true)}
-                src={elem.productImg}
+                src={elem.img}
               />
             </div>
 
