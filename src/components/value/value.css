@@ -33,6 +33,24 @@
     
 }
 
+.valuelineCont{
+    /* display: grid;
+    grid-template-columns: 30% 30% 30%; */
+    display: flex;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.valueline{
+    border-bottom: 1px solid rgba(122,83,12,1);
+    width: 20%;
+}
+
+
+
 
 @media only screen and (max-width: 700px) {
 
@@ -52,6 +70,28 @@
         line-height: 30px;
         
     }
+
+    .valuelineCont{
+        /* display: grid;
+        grid-template-columns: 30% 30% 30%; */
+        display: flex;
+        width: 70%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 10px;
+    }
+    
+    .valueline{
+        border-bottom: 1px solid rgba(122,83,12,1);
+        width: 20%;
+    }
+
+    .valueh2{
+        font-size: 15px;
+    }
+    
+    
 }
 
 @media only screen and (max-width: 500px) {

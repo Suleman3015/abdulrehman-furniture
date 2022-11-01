@@ -49,9 +49,10 @@ function Feedback() {
         style={{
 
           // marginBottom:"10px",
-          fontSize: matches === true ? "5vw" : "28px" ,
+          fontSize: matches === true ? "6vw" : "28px" ,
           letterSpacing:"1px",
-          // marginBottom:"10px",
+          color:"white",
+          position:"relative",
           fontWeight: "600",
           fontFamily:"'Alegreya SC', serif",
           // margin: "10 10px 10px auto",
@@ -60,7 +61,7 @@ function Feedback() {
           // color:"rgb(54, 69, 79)"
         }}
       >
-        Customer Satisfaction
+       Words of our Customer 
         
       </Typography>
        

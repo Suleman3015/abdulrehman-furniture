@@ -13,17 +13,15 @@ import ListItemText from "@mui/material/ListItemText";
 import FolderIcon from "@mui/icons-material/Folder";
 import ImageIcon from "@mui/icons-material/Image";
 import DescriptionIcon from "@mui/icons-material/Description";
-import Phone from "../../content/call.svg"
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import "./navbar.css"
 import {
   Link 
 } from "react-router-dom";
 import Vogue2 from "../../content/vogue.png"
-import useMediaQuery from '@mui/material/useMediaQuery';
 
 function Hamburger() {
   const [open, setState] = useState(false);
-  const matches = useMediaQuery('(max-width:500px)');
 
   const toggleDrawer = (open) => (event) => {
     if (
@@ -65,17 +63,20 @@ function Hamburger() {
            
            <div
            style={{display:"flex",
-           alignItems:"center"}}
+           alignItems:"self-end"}}
            >
       
            <a href="tel:0343220625">
-        <img alt="vogue wood"   style={{marginRight: matches === true ? "3vw" :"0.5vw",cursor:"pointer"}} height={17} src={Phone} />
+            <LocalPhoneIcon  style={{
+              color:"black",
+            }} sx={{ fontSize: "30px" }}/> 
+        {/* <img alt="vogue wood"   style={{marginRight: matches === true ? "3vw" :"0.5vw",cursor:"pointer"}} height={25} src={Phone} /> */}
    </a>
-   <MenuIcon size="lg" />
+   <MenuIcon sx={{ fontSize: "40px" }} />
             
            </div>
        
-          </IconButton>
+          </IconButton >
 
           {/* The outside of the drawer */}
           <div style={{backgroundColor:'rgba(255, 255, 255, 0.19)'}}>

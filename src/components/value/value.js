@@ -4,6 +4,11 @@ import "./value.css";
 function Value() {
   return (
     <div className="ValuemainComp">
+      <div className="valuelineCont">
+        <div className="valueline"></div>
+        <h2 className="valueh2">About Vogue Wood</h2>
+        <div className="valueline"></div>
+      </div>
       <h1 className="valueText">We Add Value To Your Home</h1>
       <div className="valueInnerMain">
         <p className="valueFont">

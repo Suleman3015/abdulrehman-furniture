@@ -41,8 +41,24 @@
 
 @media only  screen and (max-width:800px){
     .brandsWeCarryContainer{
-        grid-template-columns: 48% 48%;
+        grid-template-columns: 100%;
+        justify-content: center;
+        grid-row-gap: 0px;
+        
     }
+
+    .brandsMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brandText{
+        border: 1px solid ;
+        padding: 10px;
+        width: 90%;
+    }
+
     
 }
 

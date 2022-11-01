@@ -6,7 +6,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 
 function BrandWeCarry() {
   const matches = useMediaQuery('(max-width:550px)');
-  const matchesPhone = useMediaQuery('(max-width:470px)');
+  const matchesPhone = useMediaQuery('(max-width:1400px)');
   return (
     <div className="brandsMain">
       {
@@ -21,7 +21,7 @@ function BrandWeCarry() {
         {BrandsList.map((brands) => {
           return (
             <div className="brandsWeCarryBoxes">
-              <img alt="vogue wood" height={ matchesPhone ? 90 : matches ? 130  : 160} src={brands.img} />
+              <img alt="vogue wood" height={  matches ? 130 :matchesPhone? 100 : 160} src={brands.img} />
             </div>
           );
         })}

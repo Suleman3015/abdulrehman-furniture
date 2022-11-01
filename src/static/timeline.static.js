@@ -7,7 +7,7 @@ export const timelineStatic = [
     img: Truck2,
     head: "Fast & Free Delivery ",
     title:
-      "We offer free delivery all over Karachi no matter how big or small once you order. Over movers will deliver and fix your furniture to your home in a very professional way. ",
+      "We offer free delivery all over Karachi no matter how big or small once you order. Our movers will deliver and fix your furniture to your home in a very professional way. ",
   },
   {
     img: Service,
