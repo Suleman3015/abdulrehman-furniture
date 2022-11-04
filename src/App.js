@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from "./Pages/home/home"
 import Categories from './Pages/categories/categoriesPage';
+import Product from './Pages/product/product';
 
 
 
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path="/categories" element={ <Categories/>}>
          
+        </Route>
+        <Route path='/product' element={<Product/>}>
+
         </Route>
       </Routes>
       </Layout>

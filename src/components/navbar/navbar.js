@@ -6,6 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Hamburger from './hamburger';
+// import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import {
  
   Link 
@@ -53,6 +54,9 @@ function Navbar() {
 
                
                 <YouTubeIcon/>
+                {/* <a href="tel:0343220625">
+                <LocalPhoneIcon/>
+                </a> */}
                
               
             </div>

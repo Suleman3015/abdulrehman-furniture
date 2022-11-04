@@ -2,8 +2,8 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 120px;
+    margin-bottom: 120px;
     
 }
 
@@ -22,6 +22,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+    margin-top: 5px;
   
 }
 
@@ -88,7 +89,7 @@
     }
 
     .valueh2{
-        font-size: 15px;
+        font-size: 13px;
     }
     
     

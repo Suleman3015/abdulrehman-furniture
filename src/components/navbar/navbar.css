@@ -51,7 +51,7 @@ backdrop-filter: blur(9.7px);
 }
 
 .menuOptions{
-    width:75%;
+    width:80%;
     display: flex;
     justify-content: space-around;
     align-items: center;

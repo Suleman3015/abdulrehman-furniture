@@ -36,6 +36,52 @@ function Feedback() {
   };
   return (
     <div  className="feedbackMain">
+       <div className="valuelineCont">
+        <div className="valueline"></div>
+        <h2 className="valueh2">Customer Satisfaction</h2>
+        <div className="valueline"></div>
+      </div>
+      {
+        matches ?
+        <h2
+        data-aos-duration="1000"
+          style={{
+  
+            // marginBottom:"10px",
+            // fontSize: matches === true ? "6vw" : "28px" ,
+            letterSpacing:"1px",
+            position:"relative",
+            fontWeight: "600",
+            fontFamily:"'Alegreya SC', serif",
+            textAlign: "center",
+            marginBottom:"20px",
+            marginTop:"5px"
+          }}
+        >
+         Words of our Customer 
+          
+        </h2>
+:
+<h1
+data-aos-duration="1000"
+  style={{
+
+    // marginBottom:"10px",
+    // fontSize: matches === true ? "6vw" : "28px" ,
+    letterSpacing:"1px",
+    position:"relative",
+    fontWeight: "600",
+    fontFamily:"'Alegreya SC', serif",
+    textAlign: "center",
+    marginBottom:"20px",
+    marginTop:"5px"
+  }}
+>
+ Words of our Customer 
+  
+</h1>
+      }
+          
         <ParallaxProvider>
     <ParallaxBanner  layers={[{ image: Fur, speed: 8}]}
   className="aspect-[2/2]"
@@ -44,26 +90,6 @@ function Feedback() {
 
    
       <div className="feedbackSemiMain">
-      <Typography
-      data-aos-duration="1000"
-        style={{
-
-          // marginBottom:"10px",
-          fontSize: matches === true ? "6vw" : "28px" ,
-          letterSpacing:"1px",
-          color:"white",
-          position:"relative",
-          fontWeight: "600",
-          fontFamily:"'Alegreya SC', serif",
-          // margin: "10 10px 10px auto",
-
-          textAlign: "center",
-          // color:"rgb(54, 69, 79)"
-        }}
-      >
-       Words of our Customer 
-        
-      </Typography>
        
         <div className="feedbackBoxContainer">
            <Carousel responsive={responsive}>

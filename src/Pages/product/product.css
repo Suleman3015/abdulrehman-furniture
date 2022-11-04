@@ -1,0 +1,32 @@
+.productDetail{
+    width: 90%;
+    margin:150px auto 150px  auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.productDetailSlider{
+    width:68%
+}
+
+.ProductAbout{
+    width: 30%;
+}
+
+.productPrice{
+    display: flex;
+    flex-direction: column;
+    width:35%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.priceText{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.cutPrice{
+    font-size: 17px;
+}
