@@ -7,7 +7,8 @@
 }
 
 .productDetailSlider{
-    width:68%
+    width:68%;
+    
 }
 
 .ProductAbout{
@@ -29,4 +30,81 @@
 
 .cutPrice{
     font-size: 17px;
+}
+
+.productDes{
+    margin-top: 10px;
+}
+
+
+.productButton{
+    background-color: rgba(122,83,12,1);
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(122,83,12,1);
+    margin-top: 12px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;    
+}
+
+@media only screen and (max-width: 1000px) {
+    .productDes{
+        font-size: 13px;
+    }
+
+    .productHeading{
+     font-size:  18px  ;
+    }
+
+    .priceText{
+        font-size: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+
+    .productDetail{
+    margin:56px auto 50px  auto;
+
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        
+    }
+
+    .productDetailSlider{
+        width:100%
+    }
+    
+    .ProductAbout{
+        margin: auto;
+        width:90%;
+        margin-top: 20px;
+    }
+    .productButton{
+        padding: 18px;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .productDes{
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .priceText{
+        font-size: 22px;
+        font-weight: bold;
+        margin-top:8px ;
+    }
+
+
 }
