@@ -30,7 +30,7 @@ function Navbar() {
             <div className='menuOptions'>
             <Link className='a' to="/">HOME</Link>
           
-            <Link className="a" to="/categories" >
+            <Link className="a" to="/product" >
             CATEGORIES
             </Link >
           
