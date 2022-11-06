@@ -145,6 +145,21 @@ function Hamburger() {
                 </ListItemButton>
                 </Link>
 
+
+                <Link
+                 onClick={ () => setState(false)} 
+                style={{
+                  textDecoration:"none",
+                  color:"black"
+                }} to="/product">
+                <ListItemButton>
+                  <ListItemIcon>
+                    <DescriptionIcon sx={{ color: "darkGray" }} />
+                  </ListItemIcon>
+                  <ListItemText primary="product" />
+                </ListItemButton>
+                </Link>
+
                 <ListItemButton>
                   <ListItemIcon>
                     <DescriptionIcon sx={{ color: "darkGray" }} />
