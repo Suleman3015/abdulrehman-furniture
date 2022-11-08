@@ -105,12 +105,25 @@ function Product() {
       <div className="ProductAbout">
         {/* for detail */}
         <h2 style={{}}>EXAMPLE PRODUCT</h2>
+        <div className="productArticleTag">
+          <h4 style={{
+            backgroundColor:"rgba(122,83,12,1)",
+            color:"white",
+            padding:"2px"
+          }}>Article</h4>
+          {" "}
+          : {" "}
+          <p style={{
+            marginTop:"2px",
+            fontWeight:"bold"
+          }}>41B28</p>
+        </div>
         {/* <div> */}
         <div className="productPrice">
           <p className="cutPrice">
-            <s>45,000 Rs</s>
+            <s>Rs 45,000 </s>
           </p>{" "}
-          <p className="priceText">30,000 Rs</p>
+          <p className="priceText">Rs 30,000 </p>
         </div>
         <Rating
           style={{ marginTop: "10px" }}

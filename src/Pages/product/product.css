@@ -51,6 +51,14 @@
     cursor: pointer;    
 }
 
+
+.productArticleTag{
+    display: flex;
+    width: 35%;
+    margin-top: 10px;
+}
+
+
 @media only screen and (max-width: 1000px) {
     .productDes{
         font-size: 13px;
