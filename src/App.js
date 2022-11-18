@@ -8,6 +8,7 @@ import {
 import Home from "./Pages/home/home"
 import Categories from './Pages/categories/categoriesPage';
 import Product from './Pages/product/product';
+import Item from './Pages/item/item';
 
 
 
@@ -26,8 +27,12 @@ function App() {
          
         </Route>
         <Route path='/product' element={<Product/>}>
-
         </Route>
+
+        <Route path='/items' element={<Item/>}>
+
+</Route>
+        
       </Routes>
       </Layout>
       </BrowserRouter>
