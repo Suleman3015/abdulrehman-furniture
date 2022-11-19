@@ -222,7 +222,7 @@ padding: 10px;
       margin: auto;
       margin-top: 150px;
       /* margin-left: 50px; */
-      height: 20vh;
+      height: 27vh;
       margin-bottom: 2vh;
       /* border: 1px solid black; */
       /* border-top: 2px solid black; */
@@ -231,7 +231,7 @@ padding: 10px;
     .categorySideChild{
       display: grid;
   
-  grid-template-columns:  50% 50% ;
+  grid-template-columns:  30% 30% ;
   padding: 10px;
   }
   .itemSide {
@@ -243,6 +243,32 @@ padding: 10px;
 
     .categorise{
         font-size: 12px;
+    }
+
+    .article{
+      font-size: 12px;
+      margin-top: 10px;
+
+    }
+
+
+    .detailPrice {
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+    
+    .detailPrice > p {
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .detailChild1{
+      padding-left: 8px;
+
+    }
+
+    .detailChild1 > h3{
+      font-size: 15px;
     }
     
   }
