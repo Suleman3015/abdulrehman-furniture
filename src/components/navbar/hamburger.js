@@ -190,7 +190,7 @@ function Hamburger() {
                 style={{
                   textDecoration:"none",
                   color:"black"
-                }} to="/items">
+                }} to="/contact">
                 <ListItemButton>
                   <ListItemIcon>
                     <FolderIcon sx={{ color: "darkGray" }} />
