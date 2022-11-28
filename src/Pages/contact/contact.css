@@ -1,0 +1,150 @@
+
+
+.contactMain{
+    /* margin-top: 150px; */
+    background-color: #f5f5f5;
+ 
+}
+
+
+.contactSemi{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    
+}
+
+
+.contactSemi1{
+    margin-top: 40px;
+    width: 50%;
+    margin-bottom: 140px;
+}
+
+.contactSemi2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    width: 50%;
+    margin-bottom: 140px;
+    
+}
+
+.contactHero > h1{
+    position: relative;
+    z-index: 1;
+    bottom: 325px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.contactImg{
+    width: 100%;
+    background-size:cover;
+    object-fit: cover;
+    /* position: relative; */
+    filter: brightness(55%);
+}
+
+
+.contactDiv{
+    display:flex;
+    justify-content:space-around;
+    width: 100%;
+    margin-bottom: 30px;
+
+
+}
+
+.detailChild{
+    text-align: center;
+    width: 20%;
+}
+
+.detailChild > h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.detailChild > p {
+    margin-bottom: 8px;
+    line-height: 18px;
+}
+
+
+
+@media only  screen and (max-width:1200px){
+    .detailChild > p {
+       font-size: 12px;
+    }
+
+    .contactSemi{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+    }
+
+
+    .contactSemi1{
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        margin: auto;
+        /* width: auto; */
+    }
+
+    .contactSemi2{
+        width: auto;
+    }
+
+
+    
+    
+}
+
+
+
+
+@media only  screen and (max-width:650px){
+    .contactDiv{
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+        width: 100%;
+        margin-bottom: 65px;
+        align-items: center;
+    
+    
+    }
+
+
+    .detailChild{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .detailChild > p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    
+
+    .contactSemi{
+        width: 100%;
+    }
+
+    .contactSemi2{
+        margin-bottom: 40px;
+    }
+
+    .contactSemi1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+    }
+
+}
+

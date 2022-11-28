@@ -59,7 +59,7 @@ function Footer() {
           
           <a href="/" className="footerA">
           <FontAwesomeIcon className="footerIcons" icon={faPhone} />
-            92343220625
+            923432220625
           </a>
           <div className="whatsappCont" style={{marginTop:matchesmini === true ? "5px" :"12px"}}>
           <img alt="voguewood" src={What} height={matches === true ? 12 :18} style={{marginRight:"7px"}} />
