@@ -41,7 +41,7 @@ function Navbar() {
             </Link >
           
             <Link className='a' to="/">ABOUT</Link>
-            <Link exact className='a' to="/">CONTACT US</Link>
+            <Link exact className='a' to="/contact">CONTACT US</Link>
             </div>
             <div className='icons'>
            

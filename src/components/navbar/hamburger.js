@@ -183,6 +183,14 @@ function Hamburger() {
                   <ListItemText primary="About" />
                 </ListItemButton>
 
+
+
+                <Link
+                 onClick={ () => setState(false)} 
+                style={{
+                  textDecoration:"none",
+                  color:"black"
+                }} to="/items">
                 <ListItemButton>
                   <ListItemIcon>
                     <FolderIcon sx={{ color: "darkGray" }} />
@@ -190,6 +198,7 @@ function Hamburger() {
           
                   <ListItemText primary="Contact" />
                 </ListItemButton>
+                </Link>
               </Box>
            
               {/* {search} */}
