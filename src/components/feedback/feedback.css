@@ -34,7 +34,10 @@
   font-size: 15px;
   /* margin: 0 5px 24px; */
   padding: 10px;
-  color:white;
+  color:lack;
+  color:"black";
+  font-weight: 600;
+  line-height: 20px;
   margin: 0 5px 24px;
   font-family: "Libre Baskerville", serif;
 }

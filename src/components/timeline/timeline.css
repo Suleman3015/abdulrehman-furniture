@@ -24,14 +24,26 @@ height: 350px;
 }
 
 
+
+
+
 .timelineImg{
     height:100%;
     width:100%;
     object-fit: cover;
     border-radius: 18px;
     filter: brightness(55%);
-   
 }
+
+.timelineImg:hover{
+    filter:brightness(70%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+
+
+
+
 
 .timelineTypo{
     position: relative;
@@ -44,12 +56,12 @@ height: 350px;
     
 }
 
+
 .headingh2{
     text-align: center;
     color:white;
-
-    /* font-size: 20px; */
 }
+
 
 .timelinePara{
     text-align: center;

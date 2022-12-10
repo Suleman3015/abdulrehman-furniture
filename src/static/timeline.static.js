@@ -1,6 +1,6 @@
-import Truck2 from "../content/truck2.jpg";
-import Service from "../content/service.jpg";
-import Offer from "../content/offer.jpg";
+import Truck2 from "../content/timeline/truck.jpg"
+import Service from "../content/timeline/service.jpg";
+import Offer from "../content/timeline/call.jpg";
 
 export const timelineStatic = [
   {

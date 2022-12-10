@@ -1,9 +1,9 @@
 
-import HotItem from "../content/hotItem.jpg"
-import HotItem2 from "../content/hotItem2.jpg"
-import HotItem3 from "../content/hotItem3.jpg"
-import HotItem4 from "../content/hotItem4.jpg"
-import HotItem5 from "../content/hotItem5.jpg"
+// import HotItem from "../content/hotitem.jpg"
+import HotItem2 from "../content/hotItems/hotitem.jpg"
+import HotItem3 from "../content/hotItems/hotitem2.jpg"
+import HotItem4 from "../content/hotItems/hotitem3.jpg"
+import HotItem5 from "../content/hotItems/hotitem4.jpg"
 
 export const TopProductsLists = [
     {
@@ -12,7 +12,7 @@ export const TopProductsLists = [
     },
     {
         title : "Wooden Lamp",
-        productImg : HotItem
+        productImg : HotItem5
     },
     {
         title : "Wooden Chair",
