@@ -1,11 +1,11 @@
 import React from "react";
 import HeroSlider, { Slide, Nav } from "hero-slider";
 import "./product.css";
-import hero1 from "../../content/hero1.jpg";
-import hero2 from "../../content/hero2.jpg";
-import hero5 from "../../content/hero33.jpg";
-import hero3 from "../../content/hero3.jpg";
-import hero4 from "../../content/hero4.jpg";
+
+import hero from "../../content/hero/pexx.jpg";
+import hero2 from "../../content/hero/pex2.jpg";
+import hero3 from "../../content/hero/pex3.jpg";
+import hero4 from "../../content/hero/pex4.jpg";
 import Rating from "@mui/material/Rating";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
@@ -50,7 +50,7 @@ function Product() {
             // shouldRenderMask
             label="Hallstatt - Austria"
             background={{
-              backgroundImage: hero1,
+              backgroundImage: hero,
               // backgroundAnimation: 'zoom',
             }}
           />
@@ -68,7 +68,7 @@ function Product() {
             // shouldRenderMask
             label="Moraine Lake - Canada"
             background={{
-              backgroundImage: hero5,
+              backgroundImage: hero3,
               // backgroundAnimation: 'zoom'
             }}
           />
@@ -77,19 +77,19 @@ function Product() {
             // shouldRenderMask
             label="Jacksonville - USA"
             background={{
-              backgroundImage: hero3,
+              backgroundImage: hero4,
               // backgroundAnimation: 'zoom'
             }}
           />
 
-          <Slide
+          {/* <Slide
             // shouldRenderMask
             label="Moraine Lake - Canada"
             background={{
               backgroundImage: hero4,
               // backgroundAnimation: 'zoom'
             }}
-          />
+          /> */}
 
           {/* <ButtonsNav
         isNullAfterThreshold
