@@ -2,7 +2,7 @@ import React from "react";
 import HeroSlider, { Slide, Nav } from "hero-slider";
 import "./product.css";
 
-import hero from "../../content/hero/pexx.jpg";
+import hero from "../../content/hero/pex1.jpg";
 import hero2 from "../../content/hero/pex2.jpg";
 import hero3 from "../../content/hero/pex3.jpg";
 import hero4 from "../../content/hero/pex4.jpg";
@@ -42,7 +42,7 @@ function Product() {
           {/* <Overlay>
         <Wrapper>
           <Title>The Vogue Wood</Title>
-          <Subtitle>We Are Artist</Subtitle>
+          <Subtitle>We Are Artist</Subttle>
         </Wrapper>
       </Overlay> */}
 
