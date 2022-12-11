@@ -31,13 +31,13 @@
 }
 
 .feedbackTypo {
-  font-size: 15px;
+  font-size: 18px;
   /* margin: 0 5px 24px; */
   padding: 10px;
-  color:lack;
-  color:"black";
+  /* color:"black"; */
+  color:lightgray;
   font-weight: 600;
-  line-height: 20px;
+  line-height: 23px;
   margin: 0 5px 24px;
   font-family: "Libre Baskerville", serif;
 }
@@ -62,8 +62,8 @@
 
 @media only screen and (max-width: 800px) {
   .feedbackTypo {
-    font-size: 15px;
-    line-height: 40px;
+    font-size: 13px;
+    line-height: 20px;
   }
   .feedbackSemiMain {
     padding-top: 20px;

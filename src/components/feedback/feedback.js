@@ -7,7 +7,7 @@ import "react-multi-carousel/lib/styles.css";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import "aos/dist/aos.css";
 import {ParallaxProvider ,ParallaxBanner} from 'react-scroll-parallax';
-import Fur from "../../content/timeline/feedbackkk.jpg"
+import Fur from "../../content/timeline/feedback.jpg"
 import { reviewsStatic } from "../../static/reviews.static";
 
 function Feedback() {
@@ -115,9 +115,9 @@ data-aos-duration="1000"
                       textAlign:"end",
                       fontSize: matches === true ? "15px" : "20px",
                       fontFamily:"'Alegreya SC', serif",
-                      // color:"lightgray",
+                      color:"lightgray",
                       fontWeight:"bold",
-                      color:"black"
+                      
                     
                     }}
                   >
