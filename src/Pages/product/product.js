@@ -17,90 +17,53 @@ function Product() {
       <div className="productDetailSlider">
         {/* for slider */}
         <HeroSlider
-                  height={matches ? "40vh":matchesPro ? "60vh": "70vh"}
-          //   accessability={{
-          //     shouldDisplayButtons: false,
-          //     orientation: "vertical",
-          //   }}
-          //   autoplay
-          controller={{
-            initialSlide: 1,
-            slidingDuration: 300,
-            slidingDelay: 100,
-            onSliding: (nextSlide) =>
-              console.debug("onSliding(nextSlide): ", nextSlide),
-            onBeforeSliding: (previousSlide, nextSlide) =>
-              console.debug(
-                "onBeforeSliding(previousSlide, nextSlide): ",
-                previousSlide,
-                nextSlide
-              ),
-            onAfterSliding: (nextSlide) =>
-              console.debug("onAfterSliding(nextSlide): ", nextSlide),
-          }}
-        >
-          {/* <Overlay>
-        <Wrapper>
-          <Title>The Vogue Wood</Title>
-          <Subtitle>We Are Artist</Subttle>
-        </Wrapper>
-      </Overlay> */}
+      height="100vh"
+      autoplay
+      controller={{
+        initialSlide: 1,
+        slidingDuration: 200,
+        slidingDelay: 100,
+        onSliding: (nextSlide) =>
+          console.debug('onSliding(nextSlide): ', nextSlide),
+        onBeforeSliding: (previousSlide, nextSlide) =>
+          console.debug(
+            'onBeforeSliding(previousSlide, nextSlide): ',
+            previousSlide,
+            nextSlide
+          ),
+        onAfterSliding: (nextSlide) =>
+          console.debug('onAfterSliding(nextSlide): ', nextSlide)
+      }}
+    >
 
-          <Slide
-            // shouldRenderMask
-            label="Hallstatt - Austria"
-            background={{
-              backgroundImage: hero,
-              // backgroundAnimation: 'zoom',
-            }}
-          />
+      <Slide
+        label="Giau Pass - Italy"
+        background={{
+          backgroundImageSrc: hero      }}
+      />
 
-          <Slide
-            // shouldRenderMask
-            label="Hvitserkur - Iceland"
-            background={{
-              backgroundImage: hero2,
-              // backgroundAnimation: 'zoom'
-            }}
-          />
+      <Slide
+        label="Bogliasco - Italy"
+        background={{
+          backgroundImageSrc: hero2      }}
+      />
 
-          <Slide
-            // shouldRenderMask
-            label="Moraine Lake - Canada"
-            background={{
-              backgroundImage: hero3,
-              // backgroundAnimation: 'zoom'
-            }}
-          />
-
-          <Slide
-            // shouldRenderMask
-            label="Jacksonville - USA"
-            background={{
-              backgroundImage: hero4,
-              // backgroundAnimation: 'zoom'
-            }}
-          />
-
-          {/* <Slide
-            // shouldRenderMask
-            label="Moraine Lake - Canada"
-            background={{
-              backgroundImage: hero4,
-              // backgroundAnimation: 'zoom'
-            }}
-          /> */}
-
-          {/* <ButtonsNav
-        isNullAfterThreshold
-        position={{
-          top: 0,
-          left: '50%',
-          transform: 'translateX(-50%)'
+      <Slide
+        label="County Clare - Ireland"
+        background={{
+          backgroundImageSrc: hero3
         }}
-      />*/}
-          <Nav />
-        </HeroSlider>
+      />
+
+      <Slide
+        label="Crater Rock, OR - United States"
+        background={{
+          backgroundImageSrc: hero4        }}
+      />
+
+      <Nav />
+    </HeroSlider>
+
       </div>
       <div className="ProductAbout">
         {/* for detail */}

@@ -1,7 +1,7 @@
 import React from "react";
 import "./item.css";
-import Bed1 from "../../content/bed1.jpg";
-import Bed2 from "../../content/bed2.jpg";
+import Bed1 from "../../content/hotItems/hotitem2.jpg";
+import Bed2 from "../../content/hotItems/hotitem3.jpg";
 import Rating from "@mui/material/Rating";
 
 function Item() {

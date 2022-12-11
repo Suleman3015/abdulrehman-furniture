@@ -6,7 +6,6 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Hamburger from './hamburger';
-// import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import {
  
   Link 
@@ -24,8 +23,9 @@ function Navbar() {
     <div className='container'>
         <div className='semiContainer'>
         <img style={{
-          marginTop:"10px"
-        }} height={100} src={Vogue} alt="vogue wood , furniture site, pakistani furniture , pakistan furniture market , vogue wood furniture"/>
+          marginTop:"10px",
+          marginLeft:"20px"
+        }} height={90} src={Vogue} alt="vogue wood , furniture site, pakistani furniture , pakistan furniture market , vogue wood furniture"/>
         <div className='menu'>
             <div className='menuOptions'>
             <Link className='a' to="/">HOME</Link>
@@ -33,17 +33,19 @@ function Navbar() {
             <Link className="a" to="/categories" >
             CATEGORIES
             </Link >
-            <Link className="a" to="/items" >
-            items
+           <Link className="a" to="/items" >
+            ITEMS
             </Link >
             <Link className="a" to="/product" >
-            product
-            </Link >
+            PRODUCT
+            </Link > 
           
             <Link className='a' to="/">ABOUT</Link>
             <Link exact className='a' to="/contact">CONTACT US</Link>
             </div>
-            <div className='icons'>
+        </div>
+        
+        <div className='icons'>
            
            <a style={{
             color:"black"
@@ -66,7 +68,6 @@ function Navbar() {
                
               
             </div>
-        </div>
         
         </div>
     </div>

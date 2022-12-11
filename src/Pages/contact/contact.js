@@ -8,6 +8,7 @@ import FormCont from "../../components/Form/formCont";
 import { SnackbarProvider } from "notistack";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
+
 function Contact() {
   const matches = useMediaQuery("(max-width:650px)");
   return (
