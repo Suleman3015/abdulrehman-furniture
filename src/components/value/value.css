@@ -89,7 +89,7 @@
     }
 
     .valueh2{
-        font-size: 13px;
+        font-size: 10px;
     }
     
     
@@ -107,7 +107,7 @@
     
 
     .valueText{
-        font-size: 25px;
+        font-size: 20px;
         background: -webkit-linear-gradient(black, rgba(122,83,12,1));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
