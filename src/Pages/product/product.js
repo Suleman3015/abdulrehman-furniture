@@ -7,11 +7,11 @@ import hero2 from "../../content/hero/pex2.jpg";
 import hero3 from "../../content/hero/pex3.jpg";
 import hero4 from "../../content/hero/pex4.jpg";
 import Rating from "@mui/material/Rating";
-import useMediaQuery from "@mui/material/useMediaQuery";
+// import useMediaQuery from "@mui/material/useMediaQuery";
 
 function Product() {
-  const matches = useMediaQuery("(max-width:700px)");
-  const matchesPro = useMediaQuery("(max-width:1000px)");
+  // const matches = useMediaQuery("(max-width:700px)");
+  // const matchesPro = useMediaQuery("(max-width:1000px)");
   return (
     <div className="productDetail">
       <div className="productDetailSlider">
