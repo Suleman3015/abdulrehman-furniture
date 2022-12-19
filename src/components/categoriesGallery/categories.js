@@ -35,7 +35,7 @@ function Categories() {
     },
   };
   return (
-    <div data-aos="fade-up" className="main">
+    <div data-aos="fade-up"   data-aos-duration="500" className="main">
       {matches ? (
         <h2
           style={{
