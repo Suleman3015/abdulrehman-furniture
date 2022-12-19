@@ -1,12 +1,9 @@
 .main{
-    margin: auto auto 40px auto;
+    margin: 120px auto 40px auto;
     width:90%;  
      display:flex;
     flex-direction: column;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-    /* align-items: center; */
+
 }
 
 .wrapper {
@@ -41,6 +38,7 @@
     /* vertical-align: middle; */
     object-fit: cover;
     filter: brightness(50%);
+    border-radius: 0%;
     /* transform-style:center center;
     transition: transform 3s, filter 5s ease-in-out; */
     /* -webkit-transition: all 1s ease; /* Safari and Chrome */

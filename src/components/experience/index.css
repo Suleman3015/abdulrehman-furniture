@@ -1,0 +1,91 @@
+.Experience {
+  width: 100%;
+  margin: auto;
+}
+
+.ExOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 50%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  bottom: 150px;
+  /* border-top-right-radius: 14rem;
+  border-bottom-left-radius: 14rem; */
+
+}
+
+.ExOne > p{
+    font-size: 17px;
+    text-align: center;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 25px;
+  
+    text-shadow: rgb(255 255 255) 0px 1px 1px;
+}
+
+
+.ExOne > h2{
+  /* font-size: 2vw; */
+
+}
+
+
+
+
+@media only  screen and (max-width:1000px){
+  .ExOne > p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .ExOne > h2{
+    font-size: 20px;
+  }
+
+}
+
+
+@media only  screen and (max-width:800px){
+  .ExOne {
+    width: 80%;
+
+  }
+
+  .ExOne > p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+  }
+
+}
+
+
+@media only  screen and (max-width:500px){
+  .ExOne {
+    width: 90%;
+    height: 30vh;
+
+  }
+
+  .ExOne > p{
+    font-size: 12px;
+    line-height: 20px;
+    width: 90%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  .ExOne > h2{
+    font-size: 18px;
+  }
+
+}

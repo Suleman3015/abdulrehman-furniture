@@ -1,7 +1,7 @@
 import React from "react";
 import HeroSlider, { Slide, Nav } from "hero-slider";
 import "./product.css";
-
+import Button from "../../components/reusable-componnent/button/index"
 import hero from "../../content/hero/pex1.jpg";
 import hero2 from "../../content/hero/pex2.jpg";
 import hero3 from "../../content/hero/pex3.jpg";
@@ -104,7 +104,7 @@ function Product() {
           furniture categories are available 
         </p>
 
-        <button className="productButton"> For Queries</button>
+    <Button href="/" Wid="70%" Text="For Queries"/>
         {/* </div> */}
       </div>
     </div>

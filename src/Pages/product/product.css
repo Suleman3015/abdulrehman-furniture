@@ -37,19 +37,7 @@
 }
 
 
-.productButton{
-    background-color: rgba(122,83,12,1);
-    width: 70%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid rgba(122,83,12,1);
-    margin-top: 12px;
-    font-size: 15px;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 1px;
-    cursor: pointer;    
-}
+
 
 
 .productArticleTag{

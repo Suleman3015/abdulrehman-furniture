@@ -1,4 +1,3 @@
-
 import HeroSlider, { Slide, Overlay } from "hero-slider";
 import hero from "../../content/hero/pex1.jpg";
 import hero2 from "../../content/hero/pex2.jpg";
@@ -6,7 +5,7 @@ import hero3 from "../../content/hero/pex3.jpg";
 import hero4 from "../../content/hero/pex4.jpg";
 import Wrapper from "./wrapper";
 import Title from "./title";
-import Subtitle from "./subtitle";
+import "./index.css"
 
 function Hero() {
   return (
@@ -29,9 +28,7 @@ function Hero() {
       <Overlay>
         <Wrapper>
           
-          <Title style={{fontWeight:"900"}}>The Vogue Wood</Title>
-          <Subtitle style={{fontWeight:"900"}}>We Are Artist</Subtitle>
-      
+          <Title style={{fontWeight:"900"}}>Craft Your Dream Home</Title>
         </Wrapper>
       </Overlay>
 

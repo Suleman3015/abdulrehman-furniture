@@ -40,7 +40,7 @@
     grid-template-columns: 30% 30% 30%; */
     display: flex;
     width: 50%;
-    margin: auto;
+    margin: auto auto 15px auto;
     align-items: center;
     justify-content: center;
     grid-gap: 10px;
@@ -51,6 +51,10 @@
     width: 20%;
 }
 
+
+.valueh2{
+    /* margin-bottom: 20px; */
+}
 
 
 

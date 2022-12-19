@@ -38,7 +38,7 @@ function Feedback() {
     <div  className="feedbackMain">
        <div className="valuelineCont">
         <div className="valueline"></div>
-        <h2 className="valueh2">Customer Satisfaction</h2>
+        <h2 className="valueh2">TAKE A LOOK</h2>
         <div className="valueline"></div>
       </div>
       {
@@ -58,7 +58,7 @@ function Feedback() {
             marginTop:"5px"
           }}
         >
-         Words of our Customer 
+         Why People Choose Us
           
         </h2>
 :
@@ -77,7 +77,7 @@ data-aos-duration="1000"
     marginTop:"5px"
   }}
 >
- Words of our Customer 
+Why People Choose Us
   
 </h1>
       }
