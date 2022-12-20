@@ -1,10 +1,12 @@
-import React,{useRef, useState} from "react";
+import React, { useRef, useState} from "react";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { Button } from "@mui/material";
 import emailjs from "@emailjs/browser";
 import { useSnackbar } from "notistack";
 
+
 function FormCont() {
+ 
   const form = useRef();
   const matches = useMediaQuery("(max-width:800px)");
 
@@ -15,6 +17,7 @@ function FormCont() {
     email: null,
     message: null,
   });
+
 
   const { enqueueSnackbar } = useSnackbar();
 
@@ -66,50 +69,51 @@ function FormCont() {
 
   return (
     <>
-    <form className="formBox" ref={form} onSubmit={sendEmail}>
-      <label className="formLabel">Name</label>
-      <input
-        input={values.Name}
-        onChange={(e) => setValues({ ...values, Name: e.target.value })}
-        className="formInput"
-        type="text"
-        name="user_name"
-      />
-      <label className="formLabel">number</label>
-      <input
-        input={values.number}
-        onChange={(e) => setValues({ ...values, number: e.target.value })}
-        className="formInput"
-        type="text"
-        name="user_number"
-      />
-      <label className="formLabel">Email</label>
-      <input
-        input={values.email}
-        onChange={(e) => setValues({ ...values, email: e.target.value })}
-        className="formInput"
-        type="email"
-        name="user_email"
-      />
-      <label className="formLabel">Message</label>
-      <textarea
-        input={values.message}
-        onChange={(e) => setValues({ ...values, message: e.target.value })}
-        style={{
-          width: matches === true ? "95% " : "70%",
-        }}
-        className="formInput"
-        name="message"
-      />
-      <Button
-        className="formBut"
-        style={{ color: "white" }}
-        type="submit"
-        value="Send"
-      >
-        send
-      </Button>
-    </form>
+      <form className="formBox" ref={form} onSubmit={sendEmail}>
+        <label className="formLabel">Your Name</label>
+        <input
+          input={values.Name}
+          onChange={(e) => setValues({ ...values, Name: e.target.value })}
+          className="formInput"
+          type="text"
+          name="user_name"
+        />
+        <label className="formLabel">Your Number</label>
+        <input
+          input={values.number}
+          onChange={(e) => setValues({ ...values, number: e.target.value })}
+          className="formInput"
+          type="text"
+          name="user_number"
+        />
+        <label className="formLabel">Your Email</label>
+        <input
+          input={values.email}
+          onChange={(e) => setValues({ ...values, email: e.target.value })}
+          className="formInput"
+          type="email"
+          name="user_email"
+        />
+        <label className="formLabel">Describe Your Needs</label>
+        <textarea
+          input={values.message}
+          onChange={(e) => setValues({ ...values, message: e.target.value })}
+          style={{
+            width: matches === true ? "95% " : "70%",
+          }}
+          className="formInput"
+          name="message"
+        />
+        <Button
+          className="formBut"
+          style={{ color: "white" }}
+          type="submit"
+          value="Send"
+        >
+          send
+        </Button>
+    
+      </form>
     </>
   );
 }
