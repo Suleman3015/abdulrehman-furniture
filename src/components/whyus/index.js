@@ -63,7 +63,7 @@ function WhyUs() {
   ]
   return (
     <div className="WhyUs">
-        <h1 className="whyText">Why Choose Us</h1>
+        <h2 className="whyText">Why Choose Us</h2>
       <Carousel
         infinite={true}
         removeArrowOnDeviceType={[

@@ -38,6 +38,10 @@
 
 
 @media only  screen and (max-width:600px){
+
+    .WhyUs{
+        width:90%;
+    }
     .whyP{
        
         width: 80%;
